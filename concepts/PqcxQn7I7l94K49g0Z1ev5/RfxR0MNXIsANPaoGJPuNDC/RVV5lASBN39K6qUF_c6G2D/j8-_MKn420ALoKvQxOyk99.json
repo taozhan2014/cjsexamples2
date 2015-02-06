@@ -1,0 +1,215 @@
+{
+  "uri" : "local://j8-_MKn420ALoKvQxOyk99/",
+  "name" : "India",
+  "category" : ".example",
+  "parent" : "local://RVV5lASBN39K6qUF_c6G2D/",
+  "pname" : "Country",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "_country_identifier",
+    "expr" : {
+      "str" : "in",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_country_name",
+    "expr" : {
+      "str" : "India",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_country_longName",
+    "expr" : {
+      "str" : "Republic of India",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_country_wpPageName",
+    "expr" : {
+      "str" : "India",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_country_population",
+    "expr" : {
+      "num" : 1236344631
+    }
+  }, {
+    "name" : "_country_gdpExchangeRate",
+    "expr" : {
+      "num" : 1670000000000
+    }
+  }, {
+    "name" : "_country_gdpPerCapitaPpp",
+    "expr" : {
+      "num" : 4000
+    }
+  }, {
+    "name" : "_country_googlePlaceName",
+    "expr" : {
+      "str" : "",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_country_area",
+    "expr" : {
+      "num" : 3287263
+    }
+  }, {
+    "name" : "_country_boundaries",
+    "expr" : {
+      "num" : 13888
+    }
+  }, {
+    "name" : "_country_coastline",
+    "expr" : {
+      "num" : 7000
+    }
+  }, {
+    "name" : "_country_wikiDataQid",
+    "expr" : {
+      "str" : "Q668",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_country_locationDesc",
+    "expr" : {
+      "str" : "Southern Asia, bordering the Arabian Sea and the Bay of Bengal, between Burma and Pakistan",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_country_terrainDesc",
+    "expr" : {
+      "str" : "upland plain (Deccan Plateau) in south, flat to rolling plain along the Ganges, deserts in west, Himalayas in north",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_country_climateDesc",
+    "expr" : {
+      "str" : "varies from tropical monsoon in south to temperate in north",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_country_natResourcesDesc",
+    "expr" : {
+      "str" : "coal (fourth-largest reserves in the world), iron ore, manganese, mica, bauxite, rare earth elements, titanium ore, chromite, natural gas, diamonds, petroleum, limestone, arable land",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_country_elevationMinPlace",
+    "expr" : {
+      "str" : "Indian Ocean",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_country_elevationMin",
+    "expr" : {
+      "num" : 0
+    }
+  }, {
+    "name" : "_country_elevationMaxPlace",
+    "expr" : {
+      "str" : "Kanchenjunga",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_country_elevationMax",
+    "expr" : {
+      "num" : 8598
+    }
+  }, {
+    "name" : "_country_birthRate",
+    "expr" : {
+      "num" : 19.89
+    }
+  }, {
+    "name" : "_country_deathRate",
+    "expr" : {
+      "num" : 7.35
+    }
+  }, {
+    "name" : "_country_migrationRate",
+    "expr" : {
+      "num" : -0.05
+    }
+  }, {
+    "name" : "_country_povertyRate",
+    "expr" : {
+      "num" : 29.8
+    }
+  }, {
+    "name" : "_country_unemploymentRate",
+    "expr" : {
+      "num" : 8.8
+    }
+  }, {
+    "name" : "_country_ageStructure",
+    "expr" : {
+      "json" : {
+        "0-14" : 28.5,
+        "15-24" : 18.1,
+        "25-54" : 40.6,
+        "55-64" : 7,
+        "65-max" : 5.7
+      }
+    }
+  }, {
+    "name" : "_country_gdpByServices",
+    "expr" : {
+      "num" : 56.9
+    }
+  }, {
+    "name" : "_country_gdpByIndustry",
+    "expr" : {
+      "num" : 25.8
+    }
+  }, {
+    "name" : "_country_gdpByAgriculture",
+    "expr" : {
+      "num" : 17.4
+    }
+  }, {
+    "name" : "country",
+    "expr" : {
+      "concept" : "local://RVV5lASBN39K6qUF_c6G2D/",
+      "conceptName" : "Country",
+      "bindings" : {
+        "identifier" : "_country_identifier",
+        "name" : "_country_name",
+        "longName" : "_country_longName",
+        "wpPageName" : "_country_wpPageName",
+        "population" : "_country_population",
+        "gdpExchangeRate" : "_country_gdpExchangeRate",
+        "gdpPerCapitaPpp" : "_country_gdpPerCapitaPpp",
+        "googlePlaceName" : "_country_googlePlaceName",
+        "area" : "_country_area",
+        "boundaries" : "_country_boundaries",
+        "coastline" : "_country_coastline",
+        "wikiDataQid" : "_country_wikiDataQid",
+        "locationDesc" : "_country_locationDesc",
+        "terrainDesc" : "_country_terrainDesc",
+        "climateDesc" : "_country_climateDesc",
+        "natResourcesDesc" : "_country_natResourcesDesc",
+        "elevationMinPlace" : "_country_elevationMinPlace",
+        "elevationMin" : "_country_elevationMin",
+        "elevationMaxPlace" : "_country_elevationMaxPlace",
+        "elevationMax" : "_country_elevationMax",
+        "birthRate" : "_country_birthRate",
+        "deathRate" : "_country_deathRate",
+        "migrationRate" : "_country_migrationRate",
+        "povertyRate" : "_country_povertyRate",
+        "unemploymentRate" : "_country_unemploymentRate",
+        "ageStructure" : "_country_ageStructure",
+        "gdpByServices" : "_country_gdpByServices",
+        "gdpByIndustry" : "_country_gdpByIndustry",
+        "gdpByAgriculture" : "_country_gdpByAgriculture"
+      }
+    }
+  } ],
+  "isas" : [ {
+    "var" : "country"
+  } ],
+  "isLambda" : false,
+  "digest" : "MjeuTMiewvcUyio91JB/iw=="
+}

@@ -1,0 +1,215 @@
+{
+  "uri" : "local://pqFHTxEmUN9DJqGrToWGD6/",
+  "name" : "Sierra Leone",
+  "category" : "country",
+  "parent" : "local://mm81nqJ9ApBu7qJNqC6UHB/",
+  "pname" : "Country Profiles (Folder)",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "_country_identifier",
+    "expr" : {
+      "str" : "sl",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_country_name",
+    "expr" : {
+      "str" : "Sierra Leone",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_country_longName",
+    "expr" : {
+      "str" : "Republic of Sierra Leone",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_country_wpPageName",
+    "expr" : {
+      "str" : "Sierra Leone",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_country_population",
+    "expr" : {
+      "num" : 5612685
+    }
+  }, {
+    "name" : "_country_gdpExchangeRate",
+    "expr" : {
+      "num" : 3777000000
+    }
+  }, {
+    "name" : "_country_gdpPerCapitaPpp",
+    "expr" : {
+      "num" : 1400
+    }
+  }, {
+    "name" : "_country_googlePlaceName",
+    "expr" : {
+      "str" : "",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_country_area",
+    "expr" : {
+      "num" : 71740
+    }
+  }, {
+    "name" : "_country_boundaries",
+    "expr" : {
+      "num" : 958
+    }
+  }, {
+    "name" : "_country_coastline",
+    "expr" : {
+      "num" : 402
+    }
+  }, {
+    "name" : "_country_wikiDataQid",
+    "expr" : {
+      "str" : "Q1044",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_country_locationDesc",
+    "expr" : {
+      "str" : "Western Africa, bordering the North Atlantic Ocean, between Guinea and Liberia",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_country_terrainDesc",
+    "expr" : {
+      "str" : "coastal belt of mangrove swamps, wooded hill country, upland plateau, mountains in east",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_country_climateDesc",
+    "expr" : {
+      "str" : "tropical; hot, humid; summer rainy season (May to December); winter dry season (December to April)",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_country_natResourcesDesc",
+    "expr" : {
+      "str" : "diamonds, titanium ore, bauxite, iron ore, gold, chromite",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_country_elevationMinPlace",
+    "expr" : {
+      "str" : "Atlantic Ocean",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_country_elevationMin",
+    "expr" : {
+      "num" : 0
+    }
+  }, {
+    "name" : "_country_elevationMaxPlace",
+    "expr" : {
+      "str" : "Loma Mansa (Bintimani)",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_country_elevationMax",
+    "expr" : {
+      "num" : 1948
+    }
+  }, {
+    "name" : "_country_birthRate",
+    "expr" : {
+      "num" : 38
+    }
+  }, {
+    "name" : "_country_deathRate",
+    "expr" : {
+      "num" : 11
+    }
+  }, {
+    "name" : "_country_migrationRate",
+    "expr" : {
+      "num" : -3
+    }
+  }, {
+    "name" : "_country_povertyRate",
+    "expr" : {
+      "num" : 70.2
+    }
+  }, {
+    "name" : "_country_unemploymentRate",
+    "expr" : {
+      "num" : 0
+    }
+  }, {
+    "name" : "_country_ageStructure",
+    "expr" : {
+      "json" : {
+        "0-14" : 41.9,
+        "15-24" : 19,
+        "25-54" : 31.4,
+        "55-64" : 4,
+        "65-max" : 3.7
+      }
+    }
+  }, {
+    "name" : "_country_gdpByServices",
+    "expr" : {
+      "num" : 33.6
+    }
+  }, {
+    "name" : "_country_gdpByIndustry",
+    "expr" : {
+      "num" : 14.9
+    }
+  }, {
+    "name" : "_country_gdpByAgriculture",
+    "expr" : {
+      "num" : 51.5
+    }
+  }, {
+    "name" : "country",
+    "expr" : {
+      "concept" : "local://RVV5lASBN39K6qUF_c6G2D/",
+      "conceptName" : "Country",
+      "bindings" : {
+        "identifier" : "_country_identifier",
+        "name" : "_country_name",
+        "longName" : "_country_longName",
+        "wpPageName" : "_country_wpPageName",
+        "population" : "_country_population",
+        "gdpExchangeRate" : "_country_gdpExchangeRate",
+        "gdpPerCapitaPpp" : "_country_gdpPerCapitaPpp",
+        "googlePlaceName" : "_country_googlePlaceName",
+        "area" : "_country_area",
+        "boundaries" : "_country_boundaries",
+        "coastline" : "_country_coastline",
+        "wikiDataQid" : "_country_wikiDataQid",
+        "locationDesc" : "_country_locationDesc",
+        "terrainDesc" : "_country_terrainDesc",
+        "climateDesc" : "_country_climateDesc",
+        "natResourcesDesc" : "_country_natResourcesDesc",
+        "elevationMinPlace" : "_country_elevationMinPlace",
+        "elevationMin" : "_country_elevationMin",
+        "elevationMaxPlace" : "_country_elevationMaxPlace",
+        "elevationMax" : "_country_elevationMax",
+        "birthRate" : "_country_birthRate",
+        "deathRate" : "_country_deathRate",
+        "migrationRate" : "_country_migrationRate",
+        "povertyRate" : "_country_povertyRate",
+        "unemploymentRate" : "_country_unemploymentRate",
+        "ageStructure" : "_country_ageStructure",
+        "gdpByServices" : "_country_gdpByServices",
+        "gdpByIndustry" : "_country_gdpByIndustry",
+        "gdpByAgriculture" : "_country_gdpByAgriculture"
+      }
+    }
+  } ],
+  "isas" : [ {
+    "var" : "country"
+  } ],
+  "isLambda" : false,
+  "digest" : "t51f3G1aWK8pOh7//1HO1A=="
+}

@@ -1,0 +1,215 @@
+{
+  "uri" : "local://3kyUpJw7GrAtS4aUibXu89/",
+  "name" : "Papua New Guinea",
+  "category" : "country",
+  "parent" : "local://mm81nqJ9ApBu7qJNqC6UHB/",
+  "pname" : "Country Profiles (Folder)",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "_country_identifier",
+    "expr" : {
+      "str" : "pp",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_country_name",
+    "expr" : {
+      "str" : "Papua New Guinea",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_country_longName",
+    "expr" : {
+      "str" : "Independent State of Papua New Guinea",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_country_wpPageName",
+    "expr" : {
+      "str" : "Papua_New_Guinea",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_country_population",
+    "expr" : {
+      "num" : 6431902
+    }
+  }, {
+    "name" : "_country_gdpExchangeRate",
+    "expr" : {
+      "num" : 15790000000
+    }
+  }, {
+    "name" : "_country_gdpPerCapitaPpp",
+    "expr" : {
+      "num" : 2800
+    }
+  }, {
+    "name" : "_country_googlePlaceName",
+    "expr" : {
+      "str" : "",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_country_area",
+    "expr" : {
+      "num" : 462840
+    }
+  }, {
+    "name" : "_country_boundaries",
+    "expr" : {
+      "num" : 820
+    }
+  }, {
+    "name" : "_country_coastline",
+    "expr" : {
+      "num" : 5152
+    }
+  }, {
+    "name" : "_country_wikiDataQid",
+    "expr" : {
+      "str" : "Q691",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_country_locationDesc",
+    "expr" : {
+      "str" : "Oceania, group of islands including the eastern half of the island of New Guinea between the Coral Sea and the South Pacific Ocean, east of Indonesia",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_country_terrainDesc",
+    "expr" : {
+      "str" : "mostly mountains with coastal lowlands and rolling foothills",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_country_climateDesc",
+    "expr" : {
+      "str" : "tropical; northwest monsoon (December to March), southeast monsoon (May to October); slight seasonal temperature variation",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_country_natResourcesDesc",
+    "expr" : {
+      "str" : "gold, copper, silver, natural gas, timber, oil, fisheries",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_country_elevationMinPlace",
+    "expr" : {
+      "str" : "Pacific Ocean",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_country_elevationMin",
+    "expr" : {
+      "num" : 0
+    }
+  }, {
+    "name" : "_country_elevationMaxPlace",
+    "expr" : {
+      "str" : "Mount Wilhelm",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_country_elevationMax",
+    "expr" : {
+      "num" : 4509
+    }
+  }, {
+    "name" : "_country_birthRate",
+    "expr" : {
+      "num" : 25
+    }
+  }, {
+    "name" : "_country_deathRate",
+    "expr" : {
+      "num" : 7
+    }
+  }, {
+    "name" : "_country_migrationRate",
+    "expr" : {
+      "num" : 0
+    }
+  }, {
+    "name" : "_country_povertyRate",
+    "expr" : {
+      "num" : 37
+    }
+  }, {
+    "name" : "_country_unemploymentRate",
+    "expr" : {
+      "num" : 1.9
+    }
+  }, {
+    "name" : "_country_ageStructure",
+    "expr" : {
+      "json" : {
+        "0-14" : 35.5,
+        "15-24" : 19.5,
+        "25-54" : 36,
+        "55-64" : 5.2,
+        "65-max" : 3.8
+      }
+    }
+  }, {
+    "name" : "_country_gdpByServices",
+    "expr" : {
+      "num" : 33.4
+    }
+  }, {
+    "name" : "_country_gdpByIndustry",
+    "expr" : {
+      "num" : 38.6
+    }
+  }, {
+    "name" : "_country_gdpByAgriculture",
+    "expr" : {
+      "num" : 28
+    }
+  }, {
+    "name" : "country",
+    "expr" : {
+      "concept" : "local://RVV5lASBN39K6qUF_c6G2D/",
+      "conceptName" : "Country",
+      "bindings" : {
+        "identifier" : "_country_identifier",
+        "name" : "_country_name",
+        "longName" : "_country_longName",
+        "wpPageName" : "_country_wpPageName",
+        "population" : "_country_population",
+        "gdpExchangeRate" : "_country_gdpExchangeRate",
+        "gdpPerCapitaPpp" : "_country_gdpPerCapitaPpp",
+        "googlePlaceName" : "_country_googlePlaceName",
+        "area" : "_country_area",
+        "boundaries" : "_country_boundaries",
+        "coastline" : "_country_coastline",
+        "wikiDataQid" : "_country_wikiDataQid",
+        "locationDesc" : "_country_locationDesc",
+        "terrainDesc" : "_country_terrainDesc",
+        "climateDesc" : "_country_climateDesc",
+        "natResourcesDesc" : "_country_natResourcesDesc",
+        "elevationMinPlace" : "_country_elevationMinPlace",
+        "elevationMin" : "_country_elevationMin",
+        "elevationMaxPlace" : "_country_elevationMaxPlace",
+        "elevationMax" : "_country_elevationMax",
+        "birthRate" : "_country_birthRate",
+        "deathRate" : "_country_deathRate",
+        "migrationRate" : "_country_migrationRate",
+        "povertyRate" : "_country_povertyRate",
+        "unemploymentRate" : "_country_unemploymentRate",
+        "ageStructure" : "_country_ageStructure",
+        "gdpByServices" : "_country_gdpByServices",
+        "gdpByIndustry" : "_country_gdpByIndustry",
+        "gdpByAgriculture" : "_country_gdpByAgriculture"
+      }
+    }
+  } ],
+  "isas" : [ {
+    "var" : "country"
+  } ],
+  "isLambda" : false,
+  "digest" : "Yy9lhE4bcpImVPbqs+tFGw=="
+}

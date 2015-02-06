@@ -1,0 +1,37 @@
+{
+  "uri" : "local://OdP3FaK6OQ9YEKD3pSgiHF/",
+  "name" : "main.js",
+  "category" : "js",
+  "parent" : "local://sszDkBUxtC8bkKZnQduGh6/",
+  "pname" : "IssueView",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "jsContent",
+    "expr" : {
+      "str" : "var anchorUri = $cjs.getAnchorObj().uri;\n\nfunction topBar(message) {\n    $(\"html, body\").animate({ scrollTop: 0 }, \"slow\");\n    $(\"<div />\", { \"class\": 'topbar', text: message }).hide().prependTo(\"body\").slideDown('fast').delay(5000).slideUp(function() { \n        $(this).remove(); \n    });\n}\n\nfunction IssueVM(cvm){\n    var self = this;\n    this.cvm = cvm;\n                \n    this.createTime = cvm.createTime;\n    this.issue = cvm.issue;\n    this.audience = cvm.audience;\n    this.reason = cvm.reason;\n    this.location = cvm.location;\n    \n    this.saveChange = function(){\n        $cjs.session.save();\n        \n        topBar('Your changes have been saved successfully!');\n    }\n    \n    this.showIssueSubmit = function(){\n        $cjs.redirect($cjs(cvm.uri()).parentUri());\n    }\n    \n    this.owner = ko.computed(function(){\n        var uriComponents = purl(anchorUri);\n        return $cjs.currentUser == uriComponents.segment()[0];\n    }, this)\n}\n\nvar issueVM = new IssueVM($cjs.ko(anchorUri));\nko.applyBindings(issueVM);\n\nfunction showMap() {\n  \n  var mapcanvas = document.createElement('div');\n  mapcanvas.id = 'mapcanvas';\n  mapcanvas.style.height = '400px';\n  mapcanvas.style.width = '560px';\n    \n  document.querySelector('article').appendChild(mapcanvas);\n  \n  var latlng = new google.maps.LatLng(issueVM.location().lat, issueVM.location().lon);\n  var myOptions = {\n    zoom: 15,\n    center: latlng,\n    mapTypeControl: false,\n    navigationControlOptions: {style: google.maps.NavigationControlStyle.SMALL},\n    mapTypeId: google.maps.MapTypeId.ROADMAP\n  };\n  var map = new google.maps.Map(document.getElementById(\"mapcanvas\"), myOptions);\n  \n  var marker = new google.maps.Marker({\n      position: latlng, \n      map: map, \n      title:\"Issue is submitted here!\"\n  });\n}\n\n$(function(){\n    showMap();\n})\n",
+      "strEditMode" : "js"
+    }
+  }, {
+    "name" : "_javascriptResource_fileName",
+    "expr" : {
+      "str" : "main.js",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "javascriptResource",
+    "expr" : {
+      "concept" : "/common/core/nK_9eZMUDp8T6qqr7t5k67/",
+      "conceptName" : "Javascript Resource",
+      "bindings" : {
+        "js" : "jsContent",
+        "fileName" : "_javascriptResource_fileName"
+      }
+    }
+  } ],
+  "isas" : [ {
+    "var" : "javascriptResource"
+  } ],
+  "isLambda" : false,
+  "digest" : "q3blF6YrjQwqAhpq7Y1eUg=="
+}

@@ -1,0 +1,215 @@
+{
+  "uri" : "local://sMXiT0iEOsB244hYUPmk08/",
+  "name" : "Niger",
+  "category" : "country",
+  "parent" : "local://mm81nqJ9ApBu7qJNqC6UHB/",
+  "pname" : "Country Profiles (Folder)",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "_country_identifier",
+    "expr" : {
+      "str" : "ng",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_country_name",
+    "expr" : {
+      "str" : "Niger",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_country_longName",
+    "expr" : {
+      "str" : "Republic of Niger",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_country_wpPageName",
+    "expr" : {
+      "str" : "Niger",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_country_population",
+    "expr" : {
+      "num" : 16899327
+    }
+  }, {
+    "name" : "_country_gdpExchangeRate",
+    "expr" : {
+      "num" : 6575000000
+    }
+  }, {
+    "name" : "_country_gdpPerCapitaPpp",
+    "expr" : {
+      "num" : 800
+    }
+  }, {
+    "name" : "_country_googlePlaceName",
+    "expr" : {
+      "str" : "",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_country_area",
+    "expr" : {
+      "num" : 1267000
+    }
+  }, {
+    "name" : "_country_boundaries",
+    "expr" : {
+      "num" : 5697
+    }
+  }, {
+    "name" : "_country_coastline",
+    "expr" : {
+      "num" : 0
+    }
+  }, {
+    "name" : "_country_wikiDataQid",
+    "expr" : {
+      "str" : "Q1032",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_country_locationDesc",
+    "expr" : {
+      "str" : "Western Africa, southeast of Algeria",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_country_terrainDesc",
+    "expr" : {
+      "str" : "predominately desert plains and sand dunes; flat to rolling plains in south; hills in north",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_country_climateDesc",
+    "expr" : {
+      "str" : "desert; mostly hot, dry, dusty; tropical in extreme south",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_country_natResourcesDesc",
+    "expr" : {
+      "str" : "uranium, coal, iron ore, tin, phosphates, gold, molybdenum, gypsum, salt, petroleum",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_country_elevationMinPlace",
+    "expr" : {
+      "str" : "Niger River",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_country_elevationMin",
+    "expr" : {
+      "num" : 200
+    }
+  }, {
+    "name" : "_country_elevationMaxPlace",
+    "expr" : {
+      "str" : "Idoukal-n-Taghes",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_country_elevationMax",
+    "expr" : {
+      "num" : 2022
+    }
+  }, {
+    "name" : "_country_birthRate",
+    "expr" : {
+      "num" : 47
+    }
+  }, {
+    "name" : "_country_deathRate",
+    "expr" : {
+      "num" : 13
+    }
+  }, {
+    "name" : "_country_migrationRate",
+    "expr" : {
+      "num" : -1
+    }
+  }, {
+    "name" : "_country_povertyRate",
+    "expr" : {
+      "num" : 63
+    }
+  }, {
+    "name" : "_country_unemploymentRate",
+    "expr" : {
+      "num" : 0
+    }
+  }, {
+    "name" : "_country_ageStructure",
+    "expr" : {
+      "json" : {
+        "0-14" : 50,
+        "15-24" : 18.2,
+        "25-54" : 25.9,
+        "55-64" : 3.3,
+        "65-max" : 2.6
+      }
+    }
+  }, {
+    "name" : "_country_gdpByServices",
+    "expr" : {
+      "num" : 43.2
+    }
+  }, {
+    "name" : "_country_gdpByIndustry",
+    "expr" : {
+      "num" : 17.1
+    }
+  }, {
+    "name" : "_country_gdpByAgriculture",
+    "expr" : {
+      "num" : 39.6
+    }
+  }, {
+    "name" : "country",
+    "expr" : {
+      "concept" : "local://RVV5lASBN39K6qUF_c6G2D/",
+      "conceptName" : "Country",
+      "bindings" : {
+        "identifier" : "_country_identifier",
+        "name" : "_country_name",
+        "longName" : "_country_longName",
+        "wpPageName" : "_country_wpPageName",
+        "population" : "_country_population",
+        "gdpExchangeRate" : "_country_gdpExchangeRate",
+        "gdpPerCapitaPpp" : "_country_gdpPerCapitaPpp",
+        "googlePlaceName" : "_country_googlePlaceName",
+        "area" : "_country_area",
+        "boundaries" : "_country_boundaries",
+        "coastline" : "_country_coastline",
+        "wikiDataQid" : "_country_wikiDataQid",
+        "locationDesc" : "_country_locationDesc",
+        "terrainDesc" : "_country_terrainDesc",
+        "climateDesc" : "_country_climateDesc",
+        "natResourcesDesc" : "_country_natResourcesDesc",
+        "elevationMinPlace" : "_country_elevationMinPlace",
+        "elevationMin" : "_country_elevationMin",
+        "elevationMaxPlace" : "_country_elevationMaxPlace",
+        "elevationMax" : "_country_elevationMax",
+        "birthRate" : "_country_birthRate",
+        "deathRate" : "_country_deathRate",
+        "migrationRate" : "_country_migrationRate",
+        "povertyRate" : "_country_povertyRate",
+        "unemploymentRate" : "_country_unemploymentRate",
+        "ageStructure" : "_country_ageStructure",
+        "gdpByServices" : "_country_gdpByServices",
+        "gdpByIndustry" : "_country_gdpByIndustry",
+        "gdpByAgriculture" : "_country_gdpByAgriculture"
+      }
+    }
+  } ],
+  "isas" : [ {
+    "var" : "country"
+  } ],
+  "isLambda" : false,
+  "digest" : "ruAujGmzyiB/eXJXydOetA=="
+}

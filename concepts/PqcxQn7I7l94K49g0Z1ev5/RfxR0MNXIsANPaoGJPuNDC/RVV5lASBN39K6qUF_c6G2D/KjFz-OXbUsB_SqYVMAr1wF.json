@@ -1,0 +1,39 @@
+{
+  "uri" : "local://KjFz-OXbUsB_SqYVMAr1wF/",
+  "name" : "Country RDF XML",
+  "category" : "",
+  "parent" : "local://RVV5lASBN39K6qUF_c6G2D/",
+  "pname" : "Country",
+  "flags" : "U",
+  "lvars" : [ {
+    "name" : "model",
+    "type" : "local://RVV5lASBN39K6qUF_c6G2D/",
+    "typeName" : "Country"
+  } ],
+  "vars" : [ {
+    "name" : "xmlTemplate",
+    "expr" : {
+      "str" : "<rdf:RDF xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns:rdfs=\"http://www.w3.org/2000/01/rdf-schema#\" xmlns:factbook=\"http://wifo5-04.informatik.uni-mannheim.de/factbook/ns#\">\n<factbook:Country rdf:about=\"{{{uri}}}\">\n<factbook:countryname_conventionalshortform>{{name}}</factbook:countryname_conventionalshortform>\n<factbook:factbookcode>{{identifier}}</factbook:factbookcode>\n<factbook:climate>{{climateDesc}}</factbook:climate>\n<factbook:area_total>{{area}}</factbook:area_total>\n<factbook:population_total rdf:datatype=\"http://www.w3.org/2001/XMLSchema#long\">{{population}}</factbook:population_total>\n<factbook:name>{{name}}</factbook:name>\n<factbook:coastline_total rdf:datatype=\"http://www.w3.org/2001/XMLSchema#long\">{{coastline}}</factbook:coastline_total>\n<rdfs:label>{{name}}</rdfs:label>\n<factbook:location>{{locationDesc}}</factbook:location>\n<factbook:url rdf:resource=\"https://www.cia.gov/cia/publications/factbook/geos/{{identifier}}.html\"/>\n<factbook:countryname_conventionallongform>{{longName}}</factbook:countryname_conventionallongform>\n<factbook:map rdf:resource=\"https://www.cia.gov/library/publications/the-world-factbook/maps/{{identifier}}-map.gif\"/>\n</factbook:Country>\n</rdf:RDF>"
+    }
+  }, {
+    "name" : "_rdfXml_propertyMap",
+    "expr" : {
+      "script" : "var propNames = [\"identifier\", \"name\", \"longName\", \"locationDesc\", \"coastline\", \"population\", \"area\", \"climateDesc\"];\nvar ans = _.object(_.map(propNames , function(item) {\n   return [item, model.prop(item).val()]\n}));\nans[\"uri\"] = model.uri();\nreturn ans;"
+    }
+  }, {
+    "name" : "rdfXml",
+    "expr" : {
+      "concept" : "/common/core/T9FO2RY3fuAx4q6AAp7ET7/",
+      "conceptName" : "Mustache RDF XML",
+      "bindings" : {
+        "XMLTemplate" : "xmlTemplate",
+        "propertyMap" : "_rdfXml_propertyMap"
+      }
+    }
+  } ],
+  "isas" : [ {
+    "var" : "rdfXml"
+  } ],
+  "isLambda" : true,
+  "digest" : "FDkySfUgoXNxfEa+82+z6A=="
+}

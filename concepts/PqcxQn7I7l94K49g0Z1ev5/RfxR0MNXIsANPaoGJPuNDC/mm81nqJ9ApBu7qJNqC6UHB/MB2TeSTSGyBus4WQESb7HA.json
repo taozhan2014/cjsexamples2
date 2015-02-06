@@ -1,0 +1,215 @@
+{
+  "uri" : "local://MB2TeSTSGyBus4WQESb7HA/",
+  "name" : "Saint Lucia",
+  "category" : "country",
+  "parent" : "local://mm81nqJ9ApBu7qJNqC6UHB/",
+  "pname" : "Country Profiles (Folder)",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "_country_identifier",
+    "expr" : {
+      "str" : "st",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_country_name",
+    "expr" : {
+      "str" : "Saint Lucia",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_country_longName",
+    "expr" : {
+      "str" : "",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_country_wpPageName",
+    "expr" : {
+      "str" : "Saint_Lucia",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_country_population",
+    "expr" : {
+      "num" : 162781
+    }
+  }, {
+    "name" : "_country_gdpExchangeRate",
+    "expr" : {
+      "num" : 1220000000
+    }
+  }, {
+    "name" : "_country_gdpPerCapitaPpp",
+    "expr" : {
+      "num" : 13300
+    }
+  }, {
+    "name" : "_country_googlePlaceName",
+    "expr" : {
+      "str" : "",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_country_area",
+    "expr" : {
+      "num" : 616
+    }
+  }, {
+    "name" : "_country_boundaries",
+    "expr" : {
+      "num" : 0
+    }
+  }, {
+    "name" : "_country_coastline",
+    "expr" : {
+      "num" : 158
+    }
+  }, {
+    "name" : "_country_wikiDataQid",
+    "expr" : {
+      "str" : "Q760",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_country_locationDesc",
+    "expr" : {
+      "str" : "Caribbean, island between the Caribbean Sea and North Atlantic Ocean, north of Trinidad and Tobago",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_country_terrainDesc",
+    "expr" : {
+      "str" : "volcanic and mountainous with some broad, fertile valleys",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_country_climateDesc",
+    "expr" : {
+      "str" : "tropical, moderated by northeast trade winds; dry season January to April, rainy season May to August",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_country_natResourcesDesc",
+    "expr" : {
+      "str" : "forests, sandy beaches, minerals (pumice), mineral springs, geothermal potential",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_country_elevationMinPlace",
+    "expr" : {
+      "str" : "Caribbean Sea",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_country_elevationMin",
+    "expr" : {
+      "num" : 0
+    }
+  }, {
+    "name" : "_country_elevationMaxPlace",
+    "expr" : {
+      "str" : "Mount Gimie",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_country_elevationMax",
+    "expr" : {
+      "num" : 950
+    }
+  }, {
+    "name" : "_country_birthRate",
+    "expr" : {
+      "num" : 14
+    }
+  }, {
+    "name" : "_country_deathRate",
+    "expr" : {
+      "num" : 7
+    }
+  }, {
+    "name" : "_country_migrationRate",
+    "expr" : {
+      "num" : -3
+    }
+  }, {
+    "name" : "_country_povertyRate",
+    "expr" : {
+      "num" : 0
+    }
+  }, {
+    "name" : "_country_unemploymentRate",
+    "expr" : {
+      "num" : 20
+    }
+  }, {
+    "name" : "_country_ageStructure",
+    "expr" : {
+      "json" : {
+        "0-14" : 21.6,
+        "15-24" : 16.9,
+        "25-54" : 42.9,
+        "55-64" : 8.4,
+        "65-max" : 10.2
+      }
+    }
+  }, {
+    "name" : "_country_gdpByServices",
+    "expr" : {
+      "num" : 80.7
+    }
+  }, {
+    "name" : "_country_gdpByIndustry",
+    "expr" : {
+      "num" : 16.3
+    }
+  }, {
+    "name" : "_country_gdpByAgriculture",
+    "expr" : {
+      "num" : 3.1
+    }
+  }, {
+    "name" : "country",
+    "expr" : {
+      "concept" : "local://RVV5lASBN39K6qUF_c6G2D/",
+      "conceptName" : "Country",
+      "bindings" : {
+        "identifier" : "_country_identifier",
+        "name" : "_country_name",
+        "longName" : "_country_longName",
+        "wpPageName" : "_country_wpPageName",
+        "population" : "_country_population",
+        "gdpExchangeRate" : "_country_gdpExchangeRate",
+        "gdpPerCapitaPpp" : "_country_gdpPerCapitaPpp",
+        "googlePlaceName" : "_country_googlePlaceName",
+        "area" : "_country_area",
+        "boundaries" : "_country_boundaries",
+        "coastline" : "_country_coastline",
+        "wikiDataQid" : "_country_wikiDataQid",
+        "locationDesc" : "_country_locationDesc",
+        "terrainDesc" : "_country_terrainDesc",
+        "climateDesc" : "_country_climateDesc",
+        "natResourcesDesc" : "_country_natResourcesDesc",
+        "elevationMinPlace" : "_country_elevationMinPlace",
+        "elevationMin" : "_country_elevationMin",
+        "elevationMaxPlace" : "_country_elevationMaxPlace",
+        "elevationMax" : "_country_elevationMax",
+        "birthRate" : "_country_birthRate",
+        "deathRate" : "_country_deathRate",
+        "migrationRate" : "_country_migrationRate",
+        "povertyRate" : "_country_povertyRate",
+        "unemploymentRate" : "_country_unemploymentRate",
+        "ageStructure" : "_country_ageStructure",
+        "gdpByServices" : "_country_gdpByServices",
+        "gdpByIndustry" : "_country_gdpByIndustry",
+        "gdpByAgriculture" : "_country_gdpByAgriculture"
+      }
+    }
+  } ],
+  "isas" : [ {
+    "var" : "country"
+  } ],
+  "isLambda" : false,
+  "digest" : "8csZ52ZeUf6j7ytI2iVKtA=="
+}

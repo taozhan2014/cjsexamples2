@@ -1,0 +1,56 @@
+{
+  "uri" : "local://tftDXZ_Gtn8WUadqUOJ_yE/",
+  "name" : "bus price is too high",
+  "category" : ".issue",
+  "parent" : "local://DZaELKgIJ8A-24Gmri6DPE/",
+  "pname" : "Example Issue to Action",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "issue",
+    "expr" : {
+      "str" : "bus price is too high"
+    }
+  }, {
+    "name" : "audience",
+    "expr" : {
+      "str" : "students"
+    }
+  }, {
+    "name" : "reason",
+    "expr" : {
+      "str" : "Very cheap discount"
+    }
+  }, {
+    "name" : "createTime",
+    "expr" : {
+      "str" : "2014-12-01T22:33:31.233Z"
+    }
+  }, {
+    "name" : "location",
+    "expr" : {
+      "json" : {
+        "lat" : 42.484583699999995,
+        "lon" : -71.2004943
+      }
+    }
+  }, {
+    "name" : "issueBind",
+    "expr" : {
+      "concept" : "local://a8nFL92qm5AL8awOWxStSD/",
+      "conceptName" : "IssueLambda",
+      "bindings" : {
+        "issue" : "issue",
+        "audience" : "audience",
+        "reason" : "reason",
+        "createTime" : "createTime",
+        "location" : "location"
+      }
+    }
+  } ],
+  "isas" : [ {
+    "var" : "issueBind"
+  } ],
+  "isLambda" : false,
+  "digest" : "1Rngq6dZLBxVc/l6S2hMsw=="
+}

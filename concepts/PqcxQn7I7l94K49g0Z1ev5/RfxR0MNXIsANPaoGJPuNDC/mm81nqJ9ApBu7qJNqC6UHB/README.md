@@ -1,0 +1,197 @@
+## Country Profiles \(Folder\)
+
+The code for the following concepts can be found here: 
+- [mlelqsiwkEAQrqR8CjiInE.json](mlelqsiwkEAQrqR8CjiInE.json): Afghanistan
+- [hixltPPajp8yEaXrTGK7jF.json](hixltPPajp8yEaXrTGK7jF.json): Albania
+- [NeFgwF9wDVAHLqKSqXi\-cD.json](NeFgwF9wDVAHLqKSqXi-cD.json): Algeria
+- [WPjkEilO3PBkq4ccNUUgu7.json](WPjkEilO3PBkq4ccNUUgu7.json): Andorra
+- [FfKeui5qKZ8qYKKlIcIPSC.json](FfKeui5qKZ8qYKKlIcIPSC.json): Angola
+- [i\_8hDzDAlZ9n4alNqeB2MC.json](i_8hDzDAlZ9n4alNqeB2MC.json): Antigua and Barbuda
+- [\-pKTcECXXrBh1qi31KbHuC.json](-pKTcECXXrBh1qi31KbHuC.json): Argentina
+- [D0H\_\_cN3Q591N4b24HjA1A.json](D0H__cN3Q591N4b24HjA1A.json): Armenia
+- [OQULNynERTBFI4iwJ3Fda7.json](OQULNynERTBFI4iwJ3Fda7.json): Australia
+- [6epIwC\_\_Im948a\-d\_0TnuF.json](6epIwC__Im948a-d_0TnuF.json): Austria
+- [2N9HLFMU\_i9n\-4jR9x1Mt2.json](2N9HLFMU_i9n-4jR9x1Mt2.json): Azerbaijan
+- [fcBYvaajMuANGaDlMVYQy4.json](fcBYvaajMuANGaDlMVYQy4.json): Bahrain
+- [QS3ldEeOA6AERaYvAmm6F7.json](QS3ldEeOA6AERaYvAmm6F7.json): Bangladesh
+- [WMrI7xRlN8AajKqcERdaNE.json](WMrI7xRlN8AajKqcERdaNE.json): Barbados
+- [A3\-NUIrQWx9tP425IbQAh4.json](A3-NUIrQWx9tP425IbQAh4.json): Belarus
+- [mk8MofS3rAAw6KDkTT35Q3.json](mk8MofS3rAAw6KDkTT35Q3.json): Belgium
+- [MnumARl55r9VPKkvT2v6Z1.json](MnumARl55r9VPKkvT2v6Z1.json): Belize
+- [vduBHdgTe\-B4wa\_mkO9Rf3.json](vduBHdgTe-B4wa_mkO9Rf3.json): Benin
+- [s52NYxtc5PAw9q6Lqe65B8.json](s52NYxtc5PAw9q6Lqe65B8.json): Bhutan
+- [BnMuST2f7v8NcKdInHNisE.json](BnMuST2f7v8NcKdInHNisE.json): Bolivia
+- [mWzMMHvJy\_9mQ4ysPOC111.json](mWzMMHvJy_9mQ4ysPOC111.json): Bosnia and Herzegovina
+- [w6sn03LdheBaaqK5O\_oivC.json](w6sn03LdheBaaqK5O_oivC.json): Botswana
+- [r2er6Qvr6y86\-a4Pv4Ie4E.json](r2er6Qvr6y86-a4Pv4Ie4E.json): Brazil
+- [wbXAxIg2YC9FP4pNE6uiYD.json](wbXAxIg2YC9FP4pNE6uiYD.json): Brunei
+- [bPwye9\_BBhAs44gaI1HIpE.json](bPwye9_BBhAs44gaI1HIpE.json): Bulgaria
+- [UaCTdqiB7\_BA3asPYZ29l8.json](UaCTdqiB7_BA3asPYZ29l8.json): Burkina Faso
+- [FytHAqDxfUBOtKobUVzK\-3.json](FytHAqDxfUBOtKobUVzK-3.json): Burma
+- [dTV5v5hfx9B48KNXd1LAI2.json](dTV5v5hfx9B48KNXd1LAI2.json): Burundi
+- [epK7PEeEEp9BEaRt\-eg\_UF.json](epK7PEeEEp9BEaRt-eg_UF.json): Cambodia
+- [ibvUagsFHo9MyqBkIE9A27.json](ibvUagsFHo9MyqBkIE9A27.json): Cameroon
+- [hGDb8PCXBBBHeK1\-4cq9M7.json](hGDb8PCXBBBHeK1-4cq9M7.json): Canada
+- [xdr0l8FU\_UAO\-4g1nv60zB.json](xdr0l8FU_UAO-4g1nv60zB.json): Cape Verde
+- [oFZTD7fZoU8\-Xqmqmf\-Gf8.json](oFZTD7fZoU8-Xqmqmf-Gf8.json): Central African Republic
+- [JFywBwilveAvDagodk1aGE.json](JFywBwilveAvDagodk1aGE.json): Chad
+- [lJYyNFPFknAd0auEWMc193.json](lJYyNFPFknAd0auEWMc193.json): Chile
+- [lwaY3kvxvzAwyqTmGYG2X5.json](lwaY3kvxvzAwyqTmGYG2X5.json): China
+- [qHs2xoJu249kEqcDLIOI43.json](qHs2xoJu249kEqcDLIOI43.json): Colombia
+- [CONjDiZxoMANA410wt0xH5.json](CONjDiZxoMANA410wt0xH5.json): Comoros
+- [sM5zFvfwnC9WoqWPTqKgc1.json](sM5zFvfwnC9WoqWPTqKgc1.json): Congo \(Brazzaville\)
+- [Umux8\_QGkiBZt410ALdE00.json](Umux8_QGkiBZt410ALdE00.json): Costa Rica
+- [J05B\-TTbes9F6aGs1Z2s48.json](J05B-TTbes9F6aGs1Z2s48.json): Cote d'Ivoire
+- [4l3K6gBKZOBcsKBpQs2\-44.json](4l3K6gBKZOBcsKBpQs2-44.json): Croatia
+- [OG1fbasVJzBthaC8tQPwzF.json](OG1fbasVJzBthaC8tQPwzF.json): Cuba
+- [I6IZszjpO8Bee4e\_zX5xS3.json](I6IZszjpO8Bee4e_zX5xS3.json): Cyprus
+- [9q0XdfzJLM950aGKDFcHyA.json](9q0XdfzJLM950aGKDFcHyA.json): Czech Republic
+- [YEpTcsQ\-pM9rFKKV\_QKJE9.json](YEpTcsQ-pM9rFKKV_QKJE9.json): DRC
+- [EVuPvctCZeBvlaOjuBj8dB.json](EVuPvctCZeBvlaOjuBj8dB.json): Denmark
+- [a98A6PbM6Q9O0qIMKliDP2.json](a98A6PbM6Q9O0qIMKliDP2.json): Djibouti
+- [PXS0DWjKONApUa6Iv980IA.json](PXS0DWjKONApUa6Iv980IA.json): Dominica
+- [I\-5UhI9qW\-Anl4pyadNIt8.json](I-5UhI9qW-Anl4pyadNIt8.json): Ecuador
+- [1JqF7S3rvuBnC4gs6T4418.json](1JqF7S3rvuBnC4gs6T4418.json): Egypt
+- [vcfPfcEDrpBvfqC3KsrdJD.json](vcfPfcEDrpBvfqC3KsrdJD.json): El Salvador
+- [EyCsGM3LRO8D14K5QaWSVD.json](EyCsGM3LRO8D14K5QaWSVD.json): Equatorial Guinea
+- [57F20SUAJ2Ax2ayPZ50Dt6.json](57F20SUAJ2Ax2ayPZ50Dt6.json): Eritrea
+- [hCiqYHz1YSBX\_4vpXG7Vz0.json](hCiqYHz1YSBX_4vpXG7Vz0.json): Estonia
+- [MBTV43lT9KA69KNZBY\-t2F.json](MBTV43lT9KA69KNZBY-t2F.json): Ethiopia
+- [JDnhl4Ezh18nkqDrV8Y3y2.json](JDnhl4Ezh18nkqDrV8Y3y2.json): Federated States of Micronesia
+- [1g6ymw\_nrvBaNK\_bY7Z4z1.json](1g6ymw_nrvBaNK_bY7Z4z1.json): Fiji
+- [njJPldlTV19kYa1N\-TSsqF.json](njJPldlTV19kYa1N-TSsqF.json): Finland
+- [wxeu3JSEYDAVEaeJSHFpS9.json](wxeu3JSEYDAVEaeJSHFpS9.json): France
+- [vKpTMsWCEgAGbKpx91pKT9.json](vKpTMsWCEgAGbKpx91pKT9.json): Gabon
+- [ZPkApJqTOxAfiKlgEuvNPE.json](ZPkApJqTOxAfiKlgEuvNPE.json): Georgia
+- [4m\-ncmkdds8gK4QMz5bHy4.json](4m-ncmkdds8gK4QMz5bHy4.json): Germany
+- [Ou74eFREOh9sT4ot08v0mA.json](Ou74eFREOh9sT4ot08v0mA.json): Ghana
+- [uUW\_zOrgC\-B8wKFND6NlI8.json](uUW_zOrgC-B8wKFND6NlI8.json): Greece
+- [pKITCyuSAxAHnaR8NBl3o5.json](pKITCyuSAxAHnaR8NBl3o5.json): Greenland
+- [Insdp2m6y78IdKWpI0\-TS8.json](Insdp2m6y78IdKWpI0-TS8.json): Grenada
+- [5eY45i\_k4eACOa4Jt6tvD0.json](5eY45i_k4eACOa4Jt6tvD0.json): Guatemala
+- [yCS1mzrPh88\_TKTOBZXfu2.json](yCS1mzrPh88_TKTOBZXfu2.json): Guinea
+- [o1P3KwzsvOAIbqJPDvIUH5.json](o1P3KwzsvOAIbqJPDvIUH5.json): Guinea\-Bissau
+- [6\_BYPmiH17AmyqwTZcYQvA.json](6_BYPmiH17AmyqwTZcYQvA.json): Guyana
+- [f0RU6YeshEAe9K5omPZ3K5.json](f0RU6YeshEAe9K5omPZ3K5.json): Haiti
+- [H\_Z8KZRujOBG04Nk7KSJl3.json](H_Z8KZRujOBG04Nk7KSJl3.json): Honduras
+- [p7uL1fW2V\_8MY46tPDeEGC.json](p7uL1fW2V_8MY46tPDeEGC.json): Hungary
+- [uYp8IEGSF\-BhHKv1zNuj53.json](uYp8IEGSF-BhHKv1zNuj53.json): Iceland
+- [1NZvaPrnnu9mQaid41Njy7.json](1NZvaPrnnu9mQaid41Njy7.json): India
+- [Jj0uOpLrZRBToa5Pt1h7\_4.json](Jj0uOpLrZRBToa5Pt1h7_4.json): India
+- [ZkvC9zNeEpAkiK3F5J\_bP6.json](ZkvC9zNeEpAkiK3F5J_bP6.json): Indonesia
+- [FsWaG9iM5kACI4jrT\_\-0v0.json](FsWaG9iM5kACI4jrT_-0v0.json): Iran
+- [wrtyBelkL9AcXKJIIJVA0A.json](wrtyBelkL9AcXKJIIJVA0A.json): Iraq
+- [VJWq46a3e19LfKwPY6eZa8.json](VJWq46a3e19LfKwPY6eZa8.json): Ireland
+- [OweZ7NUwfUBc1KvMg86tBF.json](OweZ7NUwfUBc1KvMg86tBF.json): Israel
+- [640R4JjmgE9cBK11C\_u5TC.json](640R4JjmgE9cBK11C_u5TC.json): Italy
+- [Jx664\-YAap91GqYGtgzu17.json](Jx664-YAap91GqYGtgzu17.json): Jamaica
+- [EfrGS5UPIM9XCqI3\-Qq041.json](EfrGS5UPIM9XCqI3-Qq041.json): Japan
+- [R7aSJl9cfb9w14aUeCCz4E.json](R7aSJl9cfb9w14aUeCCz4E.json): Jordan
+- [\-Tz9Fi5lp0BEYayMEeX\_72.json](-Tz9Fi5lp0BEYayMEeX_72.json): Kazakhstan
+- [QZ61mIrtAN9nV4FYTJeXBC.json](QZ61mIrtAN9nV4FYTJeXBC.json): Kenya
+- [eglrNSoX968SDqqzDMc0SE.json](eglrNSoX968SDqqzDMc0SE.json): Kiribati
+- [aRPBJ2CJB\-9YZ4bQl96sa3.json](aRPBJ2CJB-9YZ4bQl96sa3.json): Kuwait
+- [7oeZe4PXwT9VFqTgrk8vfF.json](7oeZe4PXwT9VFqTgrk8vfF.json): Kyrgyzstan
+- [ow2w5NQMb68z2qMiXKnHQC.json](ow2w5NQMb68z2qMiXKnHQC.json): Laos
+- [yO4CauIeY083fay0\-HRkRC.json](yO4CauIeY083fay0-HRkRC.json): Latvia
+- [T9d7A3SLddAFGafTfA51K0.json](T9d7A3SLddAFGafTfA51K0.json): Lebanon
+- [kk\_bCRFB\_7AdxaWRAMRP49.json](kk_bCRFB_7AdxaWRAMRP49.json): Lesotho
+- [JdOjpiEl2aAdLKJsxSQMr1.json](JdOjpiEl2aAdLKJsxSQMr1.json): Liberia
+- [pDXXhTjUKS8eCKOEr7\_XR8.json](pDXXhTjUKS8eCKOEr7_XR8.json): Libya
+- [DbIEfYiWdH9bHqRtdNfQa4.json](DbIEfYiWdH9bHqRtdNfQa4.json): Liechtenstein
+- [UhknTiegeI8qIaW\-kH52MA.json](UhknTiegeI8qIaW-kH52MA.json): Lithuania
+- [VYaEp6gy7R9tOKMpC0Tk9E.json](VYaEp6gy7R9tOKMpC0Tk9E.json): Luxembourg
+- [7wQMM8bj\-99654zOmB8px4.json](7wQMM8bj-99654zOmB8px4.json): Macedonia
+- [4kIMxS284lAVEq1\-kkyi10.json](4kIMxS284lAVEq1-kkyi10.json): Madagascar
+- [\_pB396V5\-WBjUaJ42jL\-h5.json](_pB396V5-WBjUaJ42jL-h5.json): Malawi
+- [sctdPaL2vt98CaMizjvjHD.json](sctdPaL2vt98CaMizjvjHD.json): Malaysia
+- [tfGaQuK82FA\-N4cF98TBz3.json](tfGaQuK82FA-N4cF98TBz3.json): Maldives
+- [UONwDwiHuI91uq5oyjMTv3.json](UONwDwiHuI91uq5oyjMTv3.json): Mali
+- [6VnzOGzhyeAXa4zL5XZqF9.json](6VnzOGzhyeAXa4zL5XZqF9.json): Malta
+- [G\-Lh6pwAhJB314dXtDo2C2.json](G-Lh6pwAhJB314dXtDo2C2.json): Mauritania
+- [g\_\_VH\_3PYFBr6qcF\_j30u0.json](g__VH_3PYFBr6qcF_j30u0.json): Mauritius
+- [Hvt\-8PuPrG93LKhDo\_1Wc3.json](Hvt-8PuPrG93LKhDo_1Wc3.json): Mexico
+- [Y3TSvqNvyt9UEqr\_Yzo7o0.json](Y3TSvqNvyt9UEqr_Yzo7o0.json): Moldova
+- [jWElprPv8J8GFqnWik6s0A.json](jWElprPv8J8GFqnWik6s0A.json): Monaco
+- [V371XWWOAa9SXK6kUyoSKC.json](V371XWWOAa9SXK6kUyoSKC.json): Mongolia
+- [j5LgXUoTDnAEGaISplL3u9.json](j5LgXUoTDnAEGaISplL3u9.json): Morocco
+- [tXNs0pY4DW8VY4QfM\_hk\-D.json](tXNs0pY4DW8VY4QfM_hk-D.json): Mozambique
+- [ReKWodKBJP9YKaEj4eVzw6.json](ReKWodKBJP9YKaEj4eVzw6.json): Namibia
+- [fI\_\_\-\_QL\_6ACTKYleFqmT9.json](fI__-_QL_6ACTKYleFqmT9.json): Nauru
+- [J7tSqRXqJ49VOK0V80RiZ8.json](J7tSqRXqJ49VOK0V80RiZ8.json): Nepal
+- [O9js\_dyDE38CUKhOZSrTgE.json](O9js_dyDE38CUKhOZSrTgE.json): Netherlands
+- [RJviK8ZHff9JwaN7OkNn\_0.json](RJviK8ZHff9JwaN7OkNn_0.json): New Zealand
+- [wBeZAE1KvzAmL4IUKJqVLF.json](wBeZAE1KvzAmL4IUKJqVLF.json): Nicaragua
+- [sMXiT0iEOsB244hYUPmk08.json](sMXiT0iEOsB244hYUPmk08.json): Niger
+- [1nGILsgQSW8rWK\-e3ZO3KB.json](1nGILsgQSW8rWK-e3ZO3KB.json): Nigeria
+- [f8YsSfC2z9820KVLGX\-naA.json](f8YsSfC2z9820KVLGX-naA.json): North Korea
+- [m\_kVGOdkKw9A2Ksam7B\-XF.json](m_kVGOdkKw9A2Ksam7B-XF.json): Norway
+- [YF12iNTY1F8CUKrKjydY86.json](YF12iNTY1F8CUKrKjydY86.json): Oman
+- [rmLTJmjLhS8me4TdxMmas8.json](rmLTJmjLhS8me4TdxMmas8.json): Pakistan
+- [aQklr\-GtXh9seqMgVCdY37.json](aQklr-GtXh9seqMgVCdY37.json): Palau
+- [dKuEMdo637AKiKhfHYDhD2.json](dKuEMdo637AKiKhfHYDhD2.json): Panama
+- [3kyUpJw7GrAtS4aUibXu89.json](3kyUpJw7GrAtS4aUibXu89.json): Papua New Guinea
+- [18PEOO\_cXVAQsK\-dsxYxQF.json](18PEOO_cXVAQsK-dsxYxQF.json): Paraguay
+- [5uJrMfmH\_I8iba23A3ogSA.json](5uJrMfmH_I8iba23A3ogSA.json): Peru
+- [ueMVn4IJe3ARaqKL2TDTDB.json](ueMVn4IJe3ARaqKL2TDTDB.json): Philippines
+- [ZHV1\_l946mBo3a5XXkF436.json](ZHV1_l946mBo3a5XXkF436.json): Poland
+- [DuNx1RoQkH8DtKztea9mr1.json](DuNx1RoQkH8DtKztea9mr1.json): Portugal
+- [jWN\_84z3W1B\_4qX\_BFP1B0.json](jWN_84z3W1B_4qX_BFP1B0.json): Qatar
+- [zkCWaQzZbjB\_U4rlS52aA5.json](zkCWaQzZbjB_U4rlS52aA5.json): Romania
+- [vQCoa7laPw8f44Z2uUDTjD.json](vQCoa7laPw8f44Z2uUDTjD.json): Russia
+- [\_\_cUDJvpaT8muqgoWqmIzD.json](__cUDJvpaT8muqgoWqmIzD.json): Rwanda
+- [OnvGpl9EYFBLyamHU7GlY4.json](OnvGpl9EYFBLyamHU7GlY4.json): Saint Kitts and Nevis
+- [MB2TeSTSGyBus4WQESb7HA.json](MB2TeSTSGyBus4WQESb7HA.json): Saint Lucia
+- [FpgScj5lGeA7dqoxDDV50D.json](FpgScj5lGeA7dqoxDDV50D.json): Saint Vincent and the Grenadines
+- [1aw5ESp9dg8mOKmmeaByVC.json](1aw5ESp9dg8mOKmmeaByVC.json): Samoa
+- [d3INtOVPeK9TcKwT5J3f63.json](d3INtOVPeK9TcKwT5J3f63.json): San Marino
+- [CK2JA6IirS8XhKCM0LPrN1.json](CK2JA6IirS8XhKCM0LPrN1.json): Sao Tome and Principe
+- [zh5\_o9Ap6r9HE4L1N5\_xKF.json](zh5_o9Ap6r9HE4L1N5_xKF.json): Saudi Arabia
+- [9Ya4\-\_U3\_C8JKaDzqsQov3.json](9Ya4-_U3_C8JKaDzqsQov3.json): Senegal
+- [49OfruMBzV81zK75zWwQz3.json](49OfruMBzV81zK75zWwQz3.json): Serbia
+- [\_lklwR5uo69xlqeEi1cWM7.json](_lklwR5uo69xlqeEi1cWM7.json): Seychelles
+- [pqFHTxEmUN9DJqGrToWGD6.json](pqFHTxEmUN9DJqGrToWGD6.json): Sierra Leone
+- [sysyuq4NPJ9F248oy8dtj9.json](sysyuq4NPJ9F248oy8dtj9.json): Singapore
+- [2pJ9kivT9H8vZKU\-WCss83.json](2pJ9kivT9H8vZKU-WCss83.json): Slovakia
+- [WdwAbI9z2wBMX4t7DyZrO6.json](WdwAbI9z2wBMX4t7DyZrO6.json): Slovenia
+- [9VBcrH0IwhA\-NqMUiotxTA.json](9VBcrH0IwhA-NqMUiotxTA.json): Solomon Islands
+- [Zwb2vACBjM8FaaiDs3CkI1.json](Zwb2vACBjM8FaaiDs3CkI1.json): Somalia
+- [V0OmGST\_tsBydKNdhFJFV3.json](V0OmGST_tsBydKNdhFJFV3.json): South Africa
+- [e01bBBXEJ0B7ZKzXk903\_F.json](e01bBBXEJ0B7ZKzXk903_F.json): South Korea
+- [mgHKxj0tet85qqaaMchFt6.json](mgHKxj0tet85qqaaMchFt6.json): South Sudan
+- [xqcEQOJrFT8BZKuPweQno6.json](xqcEQOJrFT8BZKuPweQno6.json): Spain
+- [ve90pdOoqI8oKKCm1t5u19.json](ve90pdOoqI8oKKCm1t5u19.json): Sri Lanka
+- [gx02N8Md43B88KMfOQ49m8.json](gx02N8Md43B88KMfOQ49m8.json): Sudan
+- [wApk4LOhWT8Ms4NqaYHRE6.json](wApk4LOhWT8Ms4NqaYHRE6.json): Suriname
+- [HReYtYpAe\-8BjaoxmVXh3B.json](HReYtYpAe-8BjaoxmVXh3B.json): Swaziland
+- [grkJp3MtPm9Mda5YkwTY\-A.json](grkJp3MtPm9Mda5YkwTY-A.json): Sweden
+- [AZNp\-ozqYQ9x\_42lrUuPF0.json](AZNp-ozqYQ9x_42lrUuPF0.json): Switzerland
+- [3it6KLI0pCA5AaiSn9W\_pA.json](3it6KLI0pCA5AaiSn9W_pA.json): Syria
+- [Vk3tcfN1n6ARqKD\-TQKPhD.json](Vk3tcfN1n6ARqKD-TQKPhD.json): Taiwan
+- [3r8VDHhgHb9XsalAOYGpsD.json](3r8VDHhgHb9XsalAOYGpsD.json): Tajikistan
+- [sPOKjovM0aAXyaIfuXvlB9.json](sPOKjovM0aAXyaIfuXvlB9.json): Tanzania
+- [eT\-bT2E11dBEBK9\-4R8849.json](eT-bT2E11dBEBK9-4R8849.json): Thailand
+- [keJtmG5d9DBMmaSRSmB1q4.json](keJtmG5d9DBMmaSRSmB1q4.json): The Bahamas
+- [uSGeqccsXc8QR4dGMHEk00.json](uSGeqccsXc8QR4dGMHEk00.json): The Dominican
+- [JjGJeFKPW5A0M4eUud5vKD.json](JjGJeFKPW5A0M4eUud5vKD.json): The Gambia
+- [3UzqrG0yLoAsM4ERKOt628.json](3UzqrG0yLoAsM4ERKOt628.json): Timor\-Leste
+- [f5iKK0lInX8R\_4Yyct0vG8.json](f5iKK0lInX8R_4Yyct0vG8.json): Togo
+- [lfgwpt\_4Wo9hTqjsa6dGI0.json](lfgwpt_4Wo9hTqjsa6dGI0.json): Tonga
+- [7WJ7DzQFHO8iwqHhvHY44C.json](7WJ7DzQFHO8iwqHhvHY44C.json): Trinidad and Tobago
+- [Jj3W\-SPLd\-8THK3yDRimzD.json](Jj3W-SPLd-8THK3yDRimzD.json): Tunisia
+- [aJvnfm\_ITy8VoaA8U5ee97.json](aJvnfm_ITy8VoaA8U5ee97.json): Turkey
+- [V\-A3S1wOoiAyQa2Yf798J7.json](V-A3S1wOoiAyQa2Yf798J7.json): Turkmenistan
+- [8fKMsHtg\_D9xFqjCjC1N5A.json](8fKMsHtg_D9xFqjCjC1N5A.json): Tuvalu
+- [XAtyzuLu6BBLrKgnjE\-dB5.json](XAtyzuLu6BBLrKgnjE-dB5.json): Uganda
+- [BEVS0Yo4S18KWaL\_pIHUS7.json](BEVS0Yo4S18KWaL_pIHUS7.json): Ukraine
+- [DJHXdExyJGAilqVUkQBzx9.json](DJHXdExyJGAilqVUkQBzx9.json): United Arab Emirates
+- [GunvE5R2qL80aq0i80YSO3.json](GunvE5R2qL80aq0i80YSO3.json): United Kingdom
+- [4CgaiowrfB96L415GVVd36.json](4CgaiowrfB96L415GVVd36.json): United States
+- [k5VtwG7Zh09B84gyXfemj0.json](k5VtwG7Zh09B84gyXfemj0.json): Uruguay
+- [yV2zMvYTLh8VUK5imiXlZC.json](yV2zMvYTLh8VUK5imiXlZC.json): Uzbekistan
+- [oWxeQikGBGBWV4aizohIm9.json](oWxeQikGBGBWV4aizohIm9.json): Vanuatu
+- [8L0JH3BFzF8GXKeVGR3NwD.json](8L0JH3BFzF8GXKeVGR3NwD.json): Venezuela
+- [i5244MyPkdAjEagO4V9Rw7.json](i5244MyPkdAjEagO4V9Rw7.json): Vietnam
+- [B6v7Zb3D8K80VqsRKM\_iS5.json](B6v7Zb3D8K80VqsRKM_iS5.json): Yemen
+- [AtnPYgfGSoBTuqSCG42fB8.json](AtnPYgfGSoBTuqSCG42fB8.json): Zambia
+- [FR\-7LUrb0O9Bc4tSv70w37.json](FR-7LUrb0O9Bc4tSv70w37.json): Zimbabwe

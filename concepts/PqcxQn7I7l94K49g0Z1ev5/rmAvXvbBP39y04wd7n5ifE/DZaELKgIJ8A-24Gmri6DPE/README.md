@@ -1,0 +1,31 @@
+## Example Issue to Action
+
+The code for the following concepts can be found here: 
+- [WSZb0Tcbo89w\_KyZjqhVR4.json](WSZb0Tcbo89w_KyZjqhVR4.json): Bus fares are too high
+- [\-jqVPyuLVH8AS4L9LflcNF.json](-jqVPyuLVH8AS4L9LflcNF.json): Buses fares are too high
+- [1O6gf2pnq\-8X2aRP9D01D9.json](1O6gf2pnq-8X2aRP9D01D9.json): Commuter rails fare are too high
+- [be09VVBcyr8u9K8rX5XDEA.json](be09VVBcyr8u9K8rX5XDEA.json): Commuter rails price is too high
+- [jH2rGCpg99BHdqSPmxCd\_5.json](jH2rGCpg99BHdqSPmxCd_5.json): MBTA fares are too high
+- [IxTWBq1LlCBc048tliuuS6.json](IxTWBq1LlCBc048tliuuS6.json): MBTA price is too high
+- [qunHQ\_oaeAAtVa6Hhpvfm4.json](qunHQ_oaeAAtVa6Hhpvfm4.json): MBTA price is too high
+- [r28uHGEC2HBFlaR\-DvmPl5.json](r28uHGEC2HBFlaR-DvmPl5.json): MBTA price is too high
+- [GdWBapcEqc8VnKnH75D4YA.json](GdWBapcEqc8VnKnH75D4YA.json): T fares are too high
+- [SqGnhrFn0hBzJaBpUzQFZ6.json](SqGnhrFn0hBzJaBpUzQFZ6.json): T fares are too high
+- [meDBp9X7r18YTq6x3jDQKC.json](meDBp9X7r18YTq6x3jDQKC.json): T fares are too high
+- [uZ\-oHj6regBT\_KYttdOhtB.json](uZ-oHj6regBT_KYttdOhtB.json): T fares are too high
+- [BWZHM3jz2BAwqKCvfqdyc1.json](BWZHM3jz2BAwqKCvfqdyc1.json): bus fares are too high
+- [oIMzmmKoxQAczKFq\-sRqA5.json](oIMzmmKoxQAczKFq-sRqA5.json): bus fares are too hign
+- [tftDXZ\_Gtn8WUadqUOJ\_yE.json](tftDXZ_Gtn8WUadqUOJ_yE.json): bus price is too high
+- [rcK8NXMoyT8PcqbL4hCFPD.json](rcK8NXMoyT8PcqbL4hCFPD.json): emotion
+- [NUNd7lwXYt9qtq7ASu1zW4.json](NUNd7lwXYt9qtq7ASu1zW4.json): mbta prices are high
+- [UnAr3ddy0jAakq\-Dp\_330E.json](UnAr3ddy0jAakq-Dp_330E.json): mbta prices are high
+- [TvYjwc8GOL9gnqnGBmOpI6.json](TvYjwc8GOL9gnqnGBmOpI6.json): no trash can in park
+- [28s6i9vVXt9ZZqpWMGQqJE.json](28s6i9vVXt9ZZqpWMGQqJE.json): snow not being cleared
+- [4e2nRsj42FBT0K8vJmuvZA.json](4e2nRsj42FBT0K8vJmuvZA.json): subway fares are too high
+- [Bxs\_HqldNo8dhKb\-eNmNw3.json](Bxs_HqldNo8dhKb-eNmNw3.json): subway fares are too high
+- [vnIPsreVAc87F41lTMxneE.json](vnIPsreVAc87F41lTMxneE.json): subway fares are too high
+- [o528Cs8UQGA87aoowAmsb2.json](o528Cs8UQGA87aoowAmsb2.json): the subway fares for student are too high
+- [kEUKkyj3wAAh4q4oq\-aXQF.json](kEUKkyj3wAAh4q4oq-aXQF.json): trash around the Beacon Street bus stop
+- [SJ4V9jRjw4AC8atale0yX9.json](SJ4V9jRjw4AC8atale0yX9.json): trash in MBTA
+- [q9WtTvam6gAzAqX6mewCG8.json](q9WtTvam6gAzAqX6mewCG8.json): trash in subway
+- [l\_BDlPI9F89iDqPpWPU90B.json](l_BDlPI9F89iDqPpWPU90B.json): trash on the orange line

@@ -1,0 +1,56 @@
+{
+  "uri" : "local://oIMzmmKoxQAczKFq-sRqA5/",
+  "name" : "bus fares are too hign",
+  "category" : ".issue",
+  "parent" : "local://DZaELKgIJ8A-24Gmri6DPE/",
+  "pname" : "Example Issue to Action",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "issue",
+    "expr" : {
+      "str" : "bus fares are too hign"
+    }
+  }, {
+    "name" : "audience",
+    "expr" : {
+      "str" : "students"
+    }
+  }, {
+    "name" : "reason",
+    "expr" : {
+      "str" : "discount"
+    }
+  }, {
+    "name" : "createTime",
+    "expr" : {
+      "str" : "2014-12-02T22:33:16.494Z"
+    }
+  }, {
+    "name" : "location",
+    "expr" : {
+      "json" : {
+        "lat" : 42.4845176,
+        "lon" : -71.20054069999999
+      }
+    }
+  }, {
+    "name" : "issueBind",
+    "expr" : {
+      "concept" : "local://a8nFL92qm5AL8awOWxStSD/",
+      "conceptName" : "IssueLambda",
+      "bindings" : {
+        "issue" : "issue",
+        "audience" : "audience",
+        "reason" : "reason",
+        "createTime" : "createTime",
+        "location" : "location"
+      }
+    }
+  } ],
+  "isas" : [ {
+    "var" : "issueBind"
+  } ],
+  "isLambda" : false,
+  "digest" : "qwkLzUaOSrLECWK+c8rpSQ=="
+}

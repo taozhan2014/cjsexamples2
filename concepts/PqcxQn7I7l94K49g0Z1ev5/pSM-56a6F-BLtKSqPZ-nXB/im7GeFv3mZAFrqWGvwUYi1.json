@@ -1,0 +1,36 @@
+{
+  "uri" : "local://im7GeFv3mZAFrqWGvwUYi1/",
+  "name" : "Boston sports calendar",
+  "category" : ".example",
+  "parent" : "local://pSM-56a6F-BLtKSqPZ-nXB/",
+  "pname" : "FullCalendar Google Calendar Demo",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "_calendar_publicApiKey",
+    "expr" : {
+      "str" : "AIzaSyBxdLZE5lzuDnWMbVEzJP_AuDAn1_YGhbA",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_calendar_calendarIds",
+    "expr" : {
+      "json" : [ "8eb0jl51f5ud8n3dqk9tvjs74reog7tu@import.calendar.google.com", "3974l0bt8k0cckpqsf9idp3gvstvqbdg@import.calendar.google.com", "36g2sdshqfeqj8esejhe1le1ns0v20nm@import.calendar.google.com", "kjemji8s6cimbeoktoeorgrnru740qpv@import.calendar.google.com" ]
+    }
+  }, {
+    "name" : "calendar",
+    "expr" : {
+      "concept" : "local://pSM-56a6F-BLtKSqPZ-nXB/",
+      "conceptName" : "FullCalendar Google Calendar Demo",
+      "bindings" : {
+        "publicApiKey" : "_calendar_publicApiKey",
+        "calendarIds" : "_calendar_calendarIds"
+      }
+    }
+  } ],
+  "isas" : [ {
+    "var" : "calendar"
+  } ],
+  "isLambda" : false,
+  "digest" : "/IVFySq8Vf9jeDvU7pB/SA=="
+}

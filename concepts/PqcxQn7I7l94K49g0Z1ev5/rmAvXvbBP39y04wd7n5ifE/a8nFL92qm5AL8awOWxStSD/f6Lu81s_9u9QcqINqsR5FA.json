@@ -1,0 +1,37 @@
+{
+  "uri" : "local://f6Lu81s_9u9QcqINqsR5FA/",
+  "name" : "Issue Index Entry Type",
+  "category" : "",
+  "parent" : "local://a8nFL92qm5AL8awOWxStSD/",
+  "pname" : "IssueLambda",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "_indexEntryType_indexUri",
+    "expr" : {
+      "str" : "local://a8nFL92qm5AL8awOWxStSD/",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_indexEntryType_fieldTypes",
+    "expr" : {
+      "str" : "{ \"issue\" : { \"type\" : \"string\" },\n  \"audience\" : { \"type\" : \"string\" }, \n  \"reason\" : { \"type\" : \"string\"},\n  \"createTime\" : { \"type\" : \"date\"},\n  \"location\": { \"type\" : \"object\", \"properties\" : { \"lat\" : {\"type\": \"float\"}, \"lon\":  {\"type\": \"float\"} } } }",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "indexEntryType",
+    "expr" : {
+      "concept" : "/common/core/2ZCZ-kBJFDAkW4sQSVsBs8/",
+      "conceptName" : "Lucene Index Entry Type",
+      "bindings" : {
+        "indexUri" : "_indexEntryType_indexUri",
+        "fieldTypes" : "_indexEntryType_fieldTypes"
+      }
+    }
+  } ],
+  "isas" : [ {
+    "var" : "indexEntryType"
+  } ],
+  "isLambda" : false,
+  "digest" : "CwSPKh13PPDWbPrfbapTFQ=="
+}

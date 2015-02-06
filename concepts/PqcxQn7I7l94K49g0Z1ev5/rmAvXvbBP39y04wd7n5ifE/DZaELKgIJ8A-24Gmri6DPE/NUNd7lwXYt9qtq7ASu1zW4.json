@@ -1,0 +1,56 @@
+{
+  "uri" : "local://NUNd7lwXYt9qtq7ASu1zW4/",
+  "name" : "mbta prices are high",
+  "category" : ".issue",
+  "parent" : "local://DZaELKgIJ8A-24Gmri6DPE/",
+  "pname" : "Example Issue to Action",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "issue",
+    "expr" : {
+      "str" : "mbta prices are high"
+    }
+  }, {
+    "name" : "audience",
+    "expr" : {
+      "str" : "students"
+    }
+  }, {
+    "name" : "reason",
+    "expr" : {
+      "str" : "cheap transport"
+    }
+  }, {
+    "name" : "createTime",
+    "expr" : {
+      "str" : "2014-12-10T00:41:20.135Z"
+    }
+  }, {
+    "name" : "location",
+    "expr" : {
+      "json" : {
+        "lat" : 42.3615765,
+        "lon" : -71.0906756
+      }
+    }
+  }, {
+    "name" : "issueBind",
+    "expr" : {
+      "concept" : "local://a8nFL92qm5AL8awOWxStSD/",
+      "conceptName" : "IssueLambda",
+      "bindings" : {
+        "issue" : "issue",
+        "audience" : "audience",
+        "reason" : "reason",
+        "createTime" : "createTime",
+        "location" : "location"
+      }
+    }
+  } ],
+  "isas" : [ {
+    "var" : "issueBind"
+  } ],
+  "isLambda" : false,
+  "digest" : "rhmb0jiuh8N66LxrC+4/wA=="
+}

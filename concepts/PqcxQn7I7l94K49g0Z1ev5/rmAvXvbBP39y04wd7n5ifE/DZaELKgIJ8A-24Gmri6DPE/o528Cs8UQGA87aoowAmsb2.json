@@ -1,0 +1,56 @@
+{
+  "uri" : "local://o528Cs8UQGA87aoowAmsb2/",
+  "name" : "the subway fares for student are too high",
+  "category" : ".issue",
+  "parent" : "local://DZaELKgIJ8A-24Gmri6DPE/",
+  "pname" : "Example Issue to Action",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "issue",
+    "expr" : {
+      "str" : "the subway fares for student are too high"
+    }
+  }, {
+    "name" : "audience",
+    "expr" : {
+      "str" : "students"
+    }
+  }, {
+    "name" : "reason",
+    "expr" : {
+      "str" : "affordable public transportation"
+    }
+  }, {
+    "name" : "createTime",
+    "expr" : {
+      "str" : "2014-12-01T21:01:25.522Z"
+    }
+  }, {
+    "name" : "location",
+    "expr" : {
+      "json" : {
+        "lat" : 42.484552,
+        "lon" : -71.2006482
+      }
+    }
+  }, {
+    "name" : "issueBind",
+    "expr" : {
+      "concept" : "local://a8nFL92qm5AL8awOWxStSD/",
+      "conceptName" : "IssueLambda",
+      "bindings" : {
+        "issue" : "issue",
+        "audience" : "audience",
+        "reason" : "reason",
+        "createTime" : "createTime",
+        "location" : "location"
+      }
+    }
+  } ],
+  "isas" : [ {
+    "var" : "issueBind"
+  } ],
+  "isLambda" : false,
+  "digest" : "caDU1yHkXlD/sBRxfagO4g=="
+}

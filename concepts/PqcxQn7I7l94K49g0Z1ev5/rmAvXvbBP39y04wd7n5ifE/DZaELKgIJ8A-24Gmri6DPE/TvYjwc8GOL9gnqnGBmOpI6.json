@@ -1,0 +1,56 @@
+{
+  "uri" : "local://TvYjwc8GOL9gnqnGBmOpI6/",
+  "name" : "no trash can in park",
+  "category" : ".issue",
+  "parent" : "local://DZaELKgIJ8A-24Gmri6DPE/",
+  "pname" : "Example Issue to Action",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "issue",
+    "expr" : {
+      "str" : "no trash can in park"
+    }
+  }, {
+    "name" : "audience",
+    "expr" : {
+      "str" : "people"
+    }
+  }, {
+    "name" : "reason",
+    "expr" : {
+      "str" : "clean envrionment"
+    }
+  }, {
+    "name" : "createTime",
+    "expr" : {
+      "str" : "2015-01-22T01:53:35.123Z"
+    }
+  }, {
+    "name" : "location",
+    "expr" : {
+      "json" : {
+        "lat" : 42.6824465,
+        "lon" : -70.97134319999999
+      }
+    }
+  }, {
+    "name" : "issueBind",
+    "expr" : {
+      "concept" : "local://a8nFL92qm5AL8awOWxStSD/",
+      "conceptName" : "IssueLambda",
+      "bindings" : {
+        "issue" : "issue",
+        "audience" : "audience",
+        "reason" : "reason",
+        "createTime" : "createTime",
+        "location" : "location"
+      }
+    }
+  } ],
+  "isas" : [ {
+    "var" : "issueBind"
+  } ],
+  "isLambda" : false,
+  "digest" : "rkBUyB6J20hA/vUF9LRQOA=="
+}

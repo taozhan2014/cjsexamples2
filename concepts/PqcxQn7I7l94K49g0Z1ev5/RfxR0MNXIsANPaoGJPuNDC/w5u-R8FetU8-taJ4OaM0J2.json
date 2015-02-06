@@ -1,0 +1,37 @@
+{
+  "uri" : "local://w5u-R8FetU8-taJ4OaM0J2/",
+  "name" : "untitled.css",
+  "category" : "css",
+  "parent" : "local://RfxR0MNXIsANPaoGJPuNDC/",
+  "pname" : "ConceptJS World Fact Book (Folder)",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "_cssResource_css",
+    "expr" : {
+      "str" : "// Enter CSS3 code",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "_cssResource_fileName",
+    "expr" : {
+      "str" : "untitled.css",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "cssResource",
+    "expr" : {
+      "concept" : "/common/core/D_CaDRd425Aqj4mtY9Oh1B/",
+      "conceptName" : "CSS Resource",
+      "bindings" : {
+        "css" : "_cssResource_css",
+        "fileName" : "_cssResource_fileName"
+      }
+    }
+  } ],
+  "isas" : [ {
+    "var" : "cssResource"
+  } ],
+  "isLambda" : false,
+  "digest" : "NdlluRQS2kHiJTm/nP0v1w=="
+}

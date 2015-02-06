@@ -1,0 +1,202 @@
+{
+  "uri" : "local://RVV5lASBN39K6qUF_c6G2D/",
+  "name" : "Country",
+  "category" : "",
+  "parent" : "local://RfxR0MNXIsANPaoGJPuNDC/",
+  "pname" : "ConceptJS World Fact Book (Folder)",
+  "flags" : "U",
+  "lvars" : [ {
+    "name" : "identifier",
+    "type" : "/common/types/t6plZKh35i93o453wH2NX2/",
+    "typeName" : "string"
+  }, {
+    "name" : "name",
+    "type" : "/common/types/t6plZKh35i93o453wH2NX2/",
+    "typeName" : "string"
+  }, {
+    "name" : "longName",
+    "type" : "/common/types/t6plZKh35i93o453wH2NX2/",
+    "typeName" : "string"
+  }, {
+    "name" : "wpPageName",
+    "type" : "/common/types/t6plZKh35i93o453wH2NX2/",
+    "typeName" : "string"
+  }, {
+    "name" : "population",
+    "type" : "/common/types/dhi51l2JPSBj_qRWtXgCP3/",
+    "typeName" : "number"
+  }, {
+    "name" : "gdpExchangeRate",
+    "type" : "/common/types/dhi51l2JPSBj_qRWtXgCP3/",
+    "typeName" : "number"
+  }, {
+    "name" : "gdpPerCapitaPpp",
+    "type" : "/common/types/dhi51l2JPSBj_qRWtXgCP3/",
+    "typeName" : "number"
+  }, {
+    "name" : "area",
+    "type" : "/common/types/dhi51l2JPSBj_qRWtXgCP3/",
+    "typeName" : "number"
+  }, {
+    "name" : "flagUrl",
+    "type" : "/common/types/t6plZKh35i93o453wH2NX2/",
+    "typeName" : "string",
+    "default" : {
+      "str" : ""
+    }
+  }, {
+    "name" : "wikiDataQid",
+    "type" : "/common/types/t6plZKh35i93o453wH2NX2/",
+    "typeName" : "string",
+    "default" : {
+      "str" : ""
+    }
+  }, {
+    "name" : "locationDesc",
+    "type" : "/common/types/t6plZKh35i93o453wH2NX2/",
+    "typeName" : "string",
+    "default" : {
+      "str" : "N/A"
+    }
+  }, {
+    "name" : "terrainDesc",
+    "type" : "/common/types/t6plZKh35i93o453wH2NX2/",
+    "typeName" : "string",
+    "default" : {
+      "str" : "N/A"
+    }
+  }, {
+    "name" : "climateDesc",
+    "type" : "/common/types/t6plZKh35i93o453wH2NX2/",
+    "typeName" : "string",
+    "default" : {
+      "str" : "N/A"
+    }
+  }, {
+    "name" : "natResourcesDesc",
+    "type" : "/common/types/t6plZKh35i93o453wH2NX2/",
+    "typeName" : "string",
+    "default" : {
+      "str" : "N/A"
+    }
+  }, {
+    "name" : "elevationMinPlace",
+    "type" : "/common/types/t6plZKh35i93o453wH2NX2/",
+    "typeName" : "string",
+    "default" : {
+      "str" : ""
+    }
+  }, {
+    "name" : "elevationMin",
+    "type" : "/common/types/dhi51l2JPSBj_qRWtXgCP3/",
+    "typeName" : "number",
+    "default" : {
+      "num" : 0
+    }
+  }, {
+    "name" : "coastline",
+    "type" : "/common/types/dhi51l2JPSBj_qRWtXgCP3/",
+    "typeName" : "number",
+    "default" : {
+      "num" : 0
+    }
+  }, {
+    "name" : "boundaries",
+    "type" : "/common/types/dhi51l2JPSBj_qRWtXgCP3/",
+    "typeName" : "number",
+    "default" : {
+      "num" : 0
+    }
+  }, {
+    "name" : "elevationMaxPlace",
+    "type" : "/common/types/t6plZKh35i93o453wH2NX2/",
+    "typeName" : "string",
+    "default" : {
+      "str" : "0"
+    }
+  }, {
+    "name" : "elevationMax",
+    "type" : "/common/types/dhi51l2JPSBj_qRWtXgCP3/",
+    "typeName" : "number",
+    "default" : {
+      "num" : 0
+    }
+  }, {
+    "name" : "birthRate",
+    "type" : "/common/types/dhi51l2JPSBj_qRWtXgCP3/",
+    "typeName" : "number",
+    "default" : {
+      "num" : -1
+    }
+  }, {
+    "name" : "deathRate",
+    "type" : "/common/types/dhi51l2JPSBj_qRWtXgCP3/",
+    "typeName" : "number",
+    "default" : {
+      "num" : -1
+    }
+  }, {
+    "name" : "migrationRate",
+    "type" : "/common/types/dhi51l2JPSBj_qRWtXgCP3/",
+    "typeName" : "number",
+    "default" : {
+      "num" : 0
+    }
+  }, {
+    "name" : "povertyRate",
+    "type" : "/common/types/dhi51l2JPSBj_qRWtXgCP3/",
+    "typeName" : "number",
+    "default" : {
+      "num" : -1
+    }
+  }, {
+    "name" : "unemploymentRate",
+    "type" : "/common/types/dhi51l2JPSBj_qRWtXgCP3/",
+    "typeName" : "number",
+    "default" : {
+      "num" : -1
+    }
+  }, {
+    "name" : "ageStructure",
+    "type" : "/common/types/TzKya_80pHAqAKKkMh-d89/",
+    "typeName" : "json",
+    "default" : {
+      "json" : { }
+    }
+  }, {
+    "name" : "gdpByServices",
+    "type" : "/common/types/dhi51l2JPSBj_qRWtXgCP3/",
+    "typeName" : "number",
+    "default" : {
+      "num" : 0
+    }
+  }, {
+    "name" : "gdpByIndustry",
+    "type" : "/common/types/dhi51l2JPSBj_qRWtXgCP3/",
+    "typeName" : "number",
+    "default" : {
+      "num" : 0
+    }
+  }, {
+    "name" : "gdpByAgriculture",
+    "type" : "/common/types/dhi51l2JPSBj_qRWtXgCP3/",
+    "typeName" : "number",
+    "default" : {
+      "num" : 0
+    }
+  }, {
+    "name" : "googlePlaceName",
+    "type" : "/common/types/t6plZKh35i93o453wH2NX2/",
+    "typeName" : "string",
+    "default" : {
+      "str" : ""
+    }
+  } ],
+  "vars" : [ ],
+  "isas" : [ {
+    "concept" : "local://IePKMURnGC8-F4EBB2KszF/",
+    "conceptName" : "Country View"
+  } ],
+  "isLambda" : true,
+  "digest" : "dgfZU7Hd1oHyNfGVx9QNGQ=="
+}

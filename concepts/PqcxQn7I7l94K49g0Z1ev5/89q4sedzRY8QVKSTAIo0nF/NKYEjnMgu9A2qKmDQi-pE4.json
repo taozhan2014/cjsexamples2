@@ -1,0 +1,30 @@
+{
+  "uri" : "local://NKYEjnMgu9A2qKmDQi-pE4/",
+  "name" : "HTML Extractor",
+  "category" : "",
+  "parent" : "local://89q4sedzRY8QVKSTAIo0nF/",
+  "pname" : "Under Construction (Folder)",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "html",
+    "expr" : {
+      "str" : "<div class=\"container\">\n  <form class=\"form-horizontal\" style=\"padding-top: 3em\">\n    <div class=\"form-group\">\n      <label for=\"inputEmail3\" class=\"col-sm-2 control-label\">URL</label>\n      <div class=\"col-sm-8\">\n        <input type=\"text\" class=\"form-control\" data-bind=\"value: url\">\n      </div>\n      <div class=\"col-sm-2\" style=\"padding-left: 0px\">\n        <button data-bind=\"click: getHtml\" class=\"btn btn-primary\"><span class=\"fa fa-arrow-right\"></span></button>\n      </div>\n    </div>\n  </form>\n\n  <iframe data-bind=\"attr: {src: url}\" id=\"urlFrame\" name=\"urlFrame\" style=\"height: 100px; width: 100%\"></iframe>\n</div>\n\n<pre data-bind=\"text: html\" style=\"margin: 3em\">\n    \n</pre>\n\n<script>\n  var viewModel = {\n    url: ko.observable(\"\"),\n    html: ko.observable(\"\")\n  };\n  \n  viewModel.getHtml = function() {\n      console.log(\"Getting html\");\n      setTimeout(function() {\n          console.log(\"Start\");\n          var html = $(\"#urlFrame\").contents().find('html').html();\n          viewModel.html(html);\n          console.log(\"Got HTML: \" + html);\n      }, 3000);\n  }\n\n  ko.applyBindings(viewModel);\n</script>",
+      "strEditMode" : "html"
+    }
+  }, {
+    "name" : "page",
+    "expr" : {
+      "concept" : "/common/core/iduwOQ2KZv8MWqamwqb6AE/",
+      "conceptName" : "HTML Page",
+      "bindings" : {
+        "html" : "html"
+      }
+    }
+  } ],
+  "isas" : [ {
+    "var" : "page"
+  } ],
+  "isLambda" : false,
+  "digest" : "Rh5fL2WGjRWw2LgzAVc4hg=="
+}

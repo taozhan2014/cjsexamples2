@@ -1,0 +1,56 @@
+{
+  "uri" : "local://28s6i9vVXt9ZZqpWMGQqJE/",
+  "name" : "snow not being cleared",
+  "category" : ".issue",
+  "parent" : "local://DZaELKgIJ8A-24Gmri6DPE/",
+  "pname" : "Example Issue to Action",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "issue",
+    "expr" : {
+      "str" : "snow not being cleared"
+    }
+  }, {
+    "name" : "audience",
+    "expr" : {
+      "str" : "senior citizen"
+    }
+  }, {
+    "name" : "reason",
+    "expr" : {
+      "str" : "safe roads to drive"
+    }
+  }, {
+    "name" : "createTime",
+    "expr" : {
+      "str" : "2015-01-27T13:29:42.542Z"
+    }
+  }, {
+    "name" : "location",
+    "expr" : {
+      "json" : {
+        "lat" : 42.488461799999996,
+        "lon" : -71.13296849999999
+      }
+    }
+  }, {
+    "name" : "issueBind",
+    "expr" : {
+      "concept" : "local://a8nFL92qm5AL8awOWxStSD/",
+      "conceptName" : "IssueLambda",
+      "bindings" : {
+        "issue" : "issue",
+        "audience" : "audience",
+        "reason" : "reason",
+        "createTime" : "createTime",
+        "location" : "location"
+      }
+    }
+  } ],
+  "isas" : [ {
+    "var" : "issueBind"
+  } ],
+  "isLambda" : false,
+  "digest" : "ZKpvW4pi8vnINs+ua7+RDw=="
+}

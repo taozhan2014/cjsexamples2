@@ -1,0 +1,56 @@
+{
+  "uri" : "local://q9WtTvam6gAzAqX6mewCG8/",
+  "name" : "trash in subway",
+  "category" : ".issue",
+  "parent" : "local://DZaELKgIJ8A-24Gmri6DPE/",
+  "pname" : "Example Issue to Action",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "issue",
+    "expr" : {
+      "str" : "trash in subway"
+    }
+  }, {
+    "name" : "audience",
+    "expr" : {
+      "str" : "people"
+    }
+  }, {
+    "name" : "reason",
+    "expr" : {
+      "str" : "clean environment"
+    }
+  }, {
+    "name" : "createTime",
+    "expr" : {
+      "str" : "2014-12-02T23:06:00.409Z"
+    }
+  }, {
+    "name" : "location",
+    "expr" : {
+      "json" : {
+        "lat" : 42.484513199999995,
+        "lon" : -71.20055529999999
+      }
+    }
+  }, {
+    "name" : "issueBind",
+    "expr" : {
+      "concept" : "local://a8nFL92qm5AL8awOWxStSD/",
+      "conceptName" : "IssueLambda",
+      "bindings" : {
+        "issue" : "issue",
+        "audience" : "audience",
+        "reason" : "reason",
+        "createTime" : "createTime",
+        "location" : "location"
+      }
+    }
+  } ],
+  "isas" : [ {
+    "var" : "issueBind"
+  } ],
+  "isLambda" : false,
+  "digest" : "saptsApXXuJvv321SJEhXQ=="
+}

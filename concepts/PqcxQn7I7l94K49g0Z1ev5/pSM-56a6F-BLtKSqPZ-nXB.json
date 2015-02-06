@@ -1,0 +1,44 @@
+{
+  "uri" : "local://pSM-56a6F-BLtKSqPZ-nXB/",
+  "name" : "FullCalendar Google Calendar Demo",
+  "category" : "",
+  "parent" : "local://PqcxQn7I7l94K49g0Z1ev5/",
+  "pname" : "examples (Repository)",
+  "flags" : "U",
+  "lvars" : [ {
+    "name" : "publicApiKey",
+    "type" : "/common/types/t6plZKh35i93o453wH2NX2/",
+    "typeName" : "string"
+  }, {
+    "name" : "calendarIds",
+    "type" : "/common/types/TzKya_80pHAqAKKkMh-d89/",
+    "typeName" : "json"
+  } ],
+  "vars" : [ {
+    "name" : "htmlTemplate",
+    "expr" : {
+      "str" : "<head>\r\n<link href=\"//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.2.3/fullcalendar.css\" rel=\"stylesheet\" />\r\n<script src=\"//cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js\"></script>\r\n<script src=\"//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.2.3/fullcalendar.min.js\"></script>\r\n<script src=\"//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.2.3/gcal.js\"></script>\r\n<script>\r\n  var calIds = {{{calendarIds}}};\r\n  var eventSources = _.map(calIds, function(cid) {\r\n     return {'googleCalendarId': cid};\r\n  });\r\n  console.log(JSON.stringify(eventSources));\r\n  $(function() {\r\n    $('#calendar').fullCalendar({\r\n      header: {\r\n        left: 'prev,next today',\r\n        center: 'title',\r\n        right: 'month,basicWeek,basicDay'\r\n      },\r\n      editable: false,\r\n      eventLimit: false, \r\n      googleCalendarApiKey: '{{{publicApiKey}}}',\r\n      eventSources: eventSources\r\n    });\r\n  });\r\n\r\n</script>\r\n<style>\r\n  body {\r\n    margin: 40px 10px;\r\n    padding: 0;\r\n    font-family: \"Lucida Grande\",Helvetica,Arial,Verdana,sans-serif;\r\n    font-size: 14px;\r\n  }\r\n\r\n  #calendar {\r\n    max-width: 900px;\r\n    margin: 0 auto;\r\n  }\r\n\r\n</style>\r\n</head>\r\n<body>\r\n  <div id='calendar'></div>\r\n</body>\r\n",
+      "strEditMode" : "html"
+    }
+  }, {
+    "name" : "_page_propertyMap",
+    "expr" : {
+      "script" : "return {'publicApiKey': publicApiKey, 'calendarIds': JSON.stringify(calendarIds)};"
+    }
+  }, {
+    "name" : "page",
+    "expr" : {
+      "concept" : "/common/core/Xfh2VQ4HSK9klqbqqR-eBB/",
+      "conceptName" : "Mustache HTML Page",
+      "bindings" : {
+        "htmlTemplate" : "htmlTemplate",
+        "propertyMap" : "_page_propertyMap"
+      }
+    }
+  } ],
+  "isas" : [ {
+    "var" : "page"
+  } ],
+  "isLambda" : true,
+  "digest" : "fTM58Ma6jNlcAVYfhRxf6w=="
+}

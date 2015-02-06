@@ -1,0 +1,16 @@
+{
+  "uri" : "local://63XfwZtB3yByaKhoj8-27D/",
+  "name" : "App template for Create tour",
+  "category" : ".tour",
+  "parent" : "local://PqcxQn7I7l94K49g0Z1ev5/",
+  "pname" : "examples (Repository)",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ ],
+  "isas" : [ {
+    "concept" : "local://0WchTqpDVzBaPK4ebZU_33/",
+    "conceptName" : "View"
+  } ],
+  "isLambda" : false,
+  "digest" : "6bBnIUZD26+tBuMbgDPYrA=="
+}

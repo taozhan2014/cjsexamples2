@@ -1,0 +1,30 @@
+{
+  "uri" : "local://DZaELKgIJ8A-24Gmri6DPE/",
+  "name" : "Example Issue to Action",
+  "category" : "",
+  "parent" : "local://rmAvXvbBP39y04wd7n5ifE/",
+  "pname" : "Issue to action project (Folder)",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "description",
+    "expr" : {
+      "str" : "",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "issueToAction",
+    "expr" : {
+      "concept" : "local://CSqJ-ldvtpBBqaZCzTzv-4/",
+      "conceptName" : "IssueToActionLambda",
+      "bindings" : {
+        "description" : "description"
+      }
+    }
+  } ],
+  "isas" : [ {
+    "var" : "issueToAction"
+  } ],
+  "isLambda" : false,
+  "digest" : "rQrzej+0toAC5ux+gBVVLw=="
+}

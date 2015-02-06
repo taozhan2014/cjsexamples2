@@ -1,0 +1,59 @@
+{
+  "uri" : "local://a8nFL92qm5AL8awOWxStSD/",
+  "name" : "IssueLambda",
+  "category" : "",
+  "parent" : "local://rmAvXvbBP39y04wd7n5ifE/",
+  "pname" : "Issue to action project (Folder)",
+  "flags" : "U",
+  "lvars" : [ {
+    "name" : "issue",
+    "type" : "/common/types/t6plZKh35i93o453wH2NX2/",
+    "typeName" : "string"
+  }, {
+    "name" : "audience",
+    "type" : "/common/types/t6plZKh35i93o453wH2NX2/",
+    "typeName" : "string"
+  }, {
+    "name" : "reason",
+    "type" : "/common/types/t6plZKh35i93o453wH2NX2/",
+    "typeName" : "string"
+  }, {
+    "name" : "createTime",
+    "type" : "/common/types/t6plZKh35i93o453wH2NX2/",
+    "typeName" : "string"
+  }, {
+    "name" : "location",
+    "type" : "/common/types/TzKya_80pHAqAKKkMh-d89/",
+    "typeName" : "json",
+    "default" : {
+      "json" : {
+        "lat" : 0,
+        "lon" : 0
+      }
+    }
+  } ],
+  "vars" : [ {
+    "name" : "_indexEntry_type",
+    "expr" : {
+      "concept" : "local://f6Lu81s_9u9QcqINqsR5FA/",
+      "conceptName" : "Issue Index Entry Type"
+    }
+  }, {
+    "name" : "indexEntry",
+    "expr" : {
+      "concept" : "/common/core/0mSE4ISzLM8fkKj3BVBy7A/",
+      "conceptName" : "Lucene Index Entry",
+      "bindings" : {
+        "type" : "_indexEntry_type"
+      }
+    }
+  } ],
+  "isas" : [ {
+    "var" : "indexEntry"
+  }, {
+    "concept" : "local://sszDkBUxtC8bkKZnQduGh6/",
+    "conceptName" : "IssueView"
+  } ],
+  "isLambda" : true,
+  "digest" : "pFwvGAICBIhVUrfYsD3WDw=="
+}

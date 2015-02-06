@@ -1,0 +1,810 @@
+{
+  "uri" : "local://5o29LSbcagBRKKhfstOVF0/",
+  "name" : "World Map",
+  "category" : "",
+  "parent" : "local://RfxR0MNXIsANPaoGJPuNDC/",
+  "pname" : "ConceptJS World Fact Book (Folder)",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "isoToCiaMap",
+    "expr" : {
+      "json" : {
+        "AD" : {
+          "name" : "Andorra",
+          "uri" : "local://WPjkEilO3PBkq4ccNUUgu7/"
+        },
+        "AE" : {
+          "name" : "United Arab Emirates",
+          "uri" : "local://DJHXdExyJGAilqVUkQBzx9/"
+        },
+        "AF" : {
+          "name" : "Afghanistan",
+          "uri" : "local://mlelqsiwkEAQrqR8CjiInE/"
+        },
+        "AG" : {
+          "name" : "Antigua and Barbuda",
+          "uri" : "local://i_8hDzDAlZ9n4alNqeB2MC/"
+        },
+        "AL" : {
+          "name" : "Albania",
+          "uri" : "local://hixltPPajp8yEaXrTGK7jF/"
+        },
+        "AM" : {
+          "name" : "Armenia",
+          "uri" : "local://D0H__cN3Q591N4b24HjA1A/"
+        },
+        "AO" : {
+          "name" : "Angola",
+          "uri" : "local://FfKeui5qKZ8qYKKlIcIPSC/"
+        },
+        "AR" : {
+          "name" : "Argentina",
+          "uri" : "local://-pKTcECXXrBh1qi31KbHuC/"
+        },
+        "AT" : {
+          "name" : "Austria",
+          "uri" : "local://6epIwC__Im948a-d_0TnuF/"
+        },
+        "AU" : {
+          "name" : "Australia",
+          "uri" : "local://OQULNynERTBFI4iwJ3Fda7/"
+        },
+        "AZ" : {
+          "name" : "Azerbaijan",
+          "uri" : "local://2N9HLFMU_i9n-4jR9x1Mt2/"
+        },
+        "BA" : {
+          "name" : "Bosnia and Herzegovina",
+          "uri" : "local://mWzMMHvJy_9mQ4ysPOC111/"
+        },
+        "BB" : {
+          "name" : "Barbados",
+          "uri" : "local://WMrI7xRlN8AajKqcERdaNE/"
+        },
+        "BD" : {
+          "name" : "Bangladesh",
+          "uri" : "local://QS3ldEeOA6AERaYvAmm6F7/"
+        },
+        "BE" : {
+          "name" : "Belgium",
+          "uri" : "local://mk8MofS3rAAw6KDkTT35Q3/"
+        },
+        "BF" : {
+          "name" : "Burkina Faso",
+          "uri" : "local://UaCTdqiB7_BA3asPYZ29l8/"
+        },
+        "BG" : {
+          "name" : "Bulgaria",
+          "uri" : "local://bPwye9_BBhAs44gaI1HIpE/"
+        },
+        "BH" : {
+          "name" : "Bahrain",
+          "uri" : "local://fcBYvaajMuANGaDlMVYQy4/"
+        },
+        "BI" : {
+          "name" : "Burundi",
+          "uri" : "local://dTV5v5hfx9B48KNXd1LAI2/"
+        },
+        "BN" : {
+          "name" : "Brunei Darussalam",
+          "uri" : "local://wbXAxIg2YC9FP4pNE6uiYD/"
+        },
+        "BO" : {
+          "name" : "Bolivia, Plurinational State of",
+          "uri" : "local://BnMuST2f7v8NcKdInHNisE/"
+        },
+        "BR" : {
+          "name" : "Brazil",
+          "uri" : "local://r2er6Qvr6y86-a4Pv4Ie4E/"
+        },
+        "BS" : {
+          "name" : "Bahamas",
+          "uri" : "local://keJtmG5d9DBMmaSRSmB1q4/"
+        },
+        "BT" : {
+          "name" : "Bhutan",
+          "uri" : "local://s52NYxtc5PAw9q6Lqe65B8/"
+        },
+        "BW" : {
+          "name" : "Botswana",
+          "uri" : "local://w6sn03LdheBaaqK5O_oivC/"
+        },
+        "BY" : {
+          "name" : "Belarus",
+          "uri" : "local://A3-NUIrQWx9tP425IbQAh4/"
+        },
+        "BZ" : {
+          "name" : "Belize",
+          "uri" : "local://MnumARl55r9VPKkvT2v6Z1/"
+        },
+        "CA" : {
+          "name" : "Canada",
+          "uri" : "local://hGDb8PCXBBBHeK1-4cq9M7/"
+        },
+        "CD" : {
+          "name" : "Congo, the Democratic Republic of the",
+          "uri" : "local://YEpTcsQ-pM9rFKKV_QKJE9/"
+        },
+        "CF" : {
+          "name" : "Central African Republic",
+          "uri" : "local://oFZTD7fZoU8-Xqmqmf-Gf8/"
+        },
+        "CG" : {
+          "name" : "Congo",
+          "uri" : "local://sM5zFvfwnC9WoqWPTqKgc1/"
+        },
+        "CH" : {
+          "name" : "Switzerland",
+          "uri" : "local://AZNp-ozqYQ9x_42lrUuPF0/"
+        },
+        "CI" : {
+          "name" : "Côte d'Ivoire",
+          "uri" : "local://J05B-TTbes9F6aGs1Z2s48/"
+        },
+        "CL" : {
+          "name" : "Chile",
+          "uri" : "local://lJYyNFPFknAd0auEWMc193/"
+        },
+        "CM" : {
+          "name" : "Cameroon",
+          "uri" : "local://ibvUagsFHo9MyqBkIE9A27/"
+        },
+        "CN" : {
+          "name" : "China",
+          "uri" : "local://lwaY3kvxvzAwyqTmGYG2X5/"
+        },
+        "CO" : {
+          "name" : "Colombia",
+          "uri" : "local://qHs2xoJu249kEqcDLIOI43/"
+        },
+        "CR" : {
+          "name" : "Costa Rica",
+          "uri" : "local://Umux8_QGkiBZt410ALdE00/"
+        },
+        "CU" : {
+          "name" : "Cuba",
+          "uri" : "local://OG1fbasVJzBthaC8tQPwzF/"
+        },
+        "CV" : {
+          "name" : "Cabo Verde",
+          "uri" : "local://xdr0l8FU_UAO-4g1nv60zB/"
+        },
+        "CY" : {
+          "name" : "Cyprus",
+          "uri" : "local://I6IZszjpO8Bee4e_zX5xS3/"
+        },
+        "CZ" : {
+          "name" : "Czech Republic",
+          "uri" : "local://9q0XdfzJLM950aGKDFcHyA/"
+        },
+        "DE" : {
+          "name" : "Germany",
+          "uri" : "local://4m-ncmkdds8gK4QMz5bHy4/"
+        },
+        "DJ" : {
+          "name" : "Djibouti",
+          "uri" : "local://a98A6PbM6Q9O0qIMKliDP2/"
+        },
+        "DK" : {
+          "name" : "Denmark",
+          "uri" : "local://EVuPvctCZeBvlaOjuBj8dB/"
+        },
+        "DM" : {
+          "name" : "Dominica",
+          "uri" : "local://PXS0DWjKONApUa6Iv980IA/"
+        },
+        "DO" : {
+          "name" : "Dominican Republic",
+          "uri" : "local://uSGeqccsXc8QR4dGMHEk00/"
+        },
+        "DZ" : {
+          "name" : "Algeria",
+          "uri" : "local://NeFgwF9wDVAHLqKSqXi-cD/"
+        },
+        "EC" : {
+          "name" : "Ecuador",
+          "uri" : "local://I-5UhI9qW-Anl4pyadNIt8/"
+        },
+        "EE" : {
+          "name" : "Estonia",
+          "uri" : "local://hCiqYHz1YSBX_4vpXG7Vz0/"
+        },
+        "EG" : {
+          "name" : "Egypt",
+          "uri" : "local://1JqF7S3rvuBnC4gs6T4418/"
+        },
+        "ER" : {
+          "name" : "Eritrea",
+          "uri" : "local://57F20SUAJ2Ax2ayPZ50Dt6/"
+        },
+        "ES" : {
+          "name" : "Spain",
+          "uri" : "local://xqcEQOJrFT8BZKuPweQno6/"
+        },
+        "ET" : {
+          "name" : "Ethiopia",
+          "uri" : "local://MBTV43lT9KA69KNZBY-t2F/"
+        },
+        "FI" : {
+          "name" : "Finland",
+          "uri" : "local://njJPldlTV19kYa1N-TSsqF/"
+        },
+        "FJ" : {
+          "name" : "Fiji",
+          "uri" : "local://1g6ymw_nrvBaNK_bY7Z4z1/"
+        },
+        "FM" : {
+          "name" : "Micronesia, Federated States of",
+          "uri" : "local://JDnhl4Ezh18nkqDrV8Y3y2/"
+        },
+        "FR" : {
+          "name" : "France",
+          "uri" : "local://wxeu3JSEYDAVEaeJSHFpS9/"
+        },
+        "GA" : {
+          "name" : "Gabon",
+          "uri" : "local://vKpTMsWCEgAGbKpx91pKT9/"
+        },
+        "GB" : {
+          "name" : "United Kingdom",
+          "uri" : "local://GunvE5R2qL80aq0i80YSO3/"
+        },
+        "GD" : {
+          "name" : "Grenada",
+          "uri" : "local://Insdp2m6y78IdKWpI0-TS8/"
+        },
+        "GE" : {
+          "name" : "Georgia",
+          "uri" : "local://ZPkApJqTOxAfiKlgEuvNPE/"
+        },
+        "GH" : {
+          "name" : "Ghana",
+          "uri" : "local://Ou74eFREOh9sT4ot08v0mA/"
+        },
+        "GL" : {
+          "name" : "Greenland",
+          "uri" : "local://pKITCyuSAxAHnaR8NBl3o5/"
+        },
+        "GM" : {
+          "name" : "Gambia",
+          "uri" : "local://JjGJeFKPW5A0M4eUud5vKD/"
+        },
+        "GN" : {
+          "name" : "Guinea",
+          "uri" : "local://yCS1mzrPh88_TKTOBZXfu2/"
+        },
+        "GQ" : {
+          "name" : "Equatorial Guinea",
+          "uri" : "local://EyCsGM3LRO8D14K5QaWSVD/"
+        },
+        "GR" : {
+          "name" : "Greece",
+          "uri" : "local://uUW_zOrgC-B8wKFND6NlI8/"
+        },
+        "GT" : {
+          "name" : "Guatemala",
+          "uri" : "local://5eY45i_k4eACOa4Jt6tvD0/"
+        },
+        "GW" : {
+          "name" : "Guinea-Bissau",
+          "uri" : "local://o1P3KwzsvOAIbqJPDvIUH5/"
+        },
+        "GY" : {
+          "name" : "Guyana",
+          "uri" : "local://6_BYPmiH17AmyqwTZcYQvA/"
+        },
+        "HN" : {
+          "name" : "Honduras",
+          "uri" : "local://H_Z8KZRujOBG04Nk7KSJl3/"
+        },
+        "HR" : {
+          "name" : "Croatia",
+          "uri" : "local://4l3K6gBKZOBcsKBpQs2-44/"
+        },
+        "HT" : {
+          "name" : "Haiti",
+          "uri" : "local://f0RU6YeshEAe9K5omPZ3K5/"
+        },
+        "HU" : {
+          "name" : "Hungary",
+          "uri" : "local://p7uL1fW2V_8MY46tPDeEGC/"
+        },
+        "ID" : {
+          "name" : "Indonesia",
+          "uri" : "local://ZkvC9zNeEpAkiK3F5J_bP6/"
+        },
+        "IE" : {
+          "name" : "Ireland",
+          "uri" : "local://VJWq46a3e19LfKwPY6eZa8/"
+        },
+        "IL" : {
+          "name" : "Israel",
+          "uri" : "local://OweZ7NUwfUBc1KvMg86tBF/"
+        },
+        "IN" : {
+          "name" : "India",
+          "uri" : "local://1NZvaPrnnu9mQaid41Njy7/"
+        },
+        "IQ" : {
+          "name" : "Iraq",
+          "uri" : "local://wrtyBelkL9AcXKJIIJVA0A/"
+        },
+        "IR" : {
+          "name" : "Iran, Islamic Republic of",
+          "uri" : "local://FsWaG9iM5kACI4jrT_-0v0/"
+        },
+        "IS" : {
+          "name" : "Iceland",
+          "uri" : "local://uYp8IEGSF-BhHKv1zNuj53/"
+        },
+        "IT" : {
+          "name" : "Italy",
+          "uri" : "local://640R4JjmgE9cBK11C_u5TC/"
+        },
+        "JM" : {
+          "name" : "Jamaica",
+          "uri" : "local://Jx664-YAap91GqYGtgzu17/"
+        },
+        "JO" : {
+          "name" : "Jordan",
+          "uri" : "local://R7aSJl9cfb9w14aUeCCz4E/"
+        },
+        "JP" : {
+          "name" : "Japan",
+          "uri" : "local://EfrGS5UPIM9XCqI3-Qq041/"
+        },
+        "KE" : {
+          "name" : "Kenya",
+          "uri" : "local://QZ61mIrtAN9nV4FYTJeXBC/"
+        },
+        "KG" : {
+          "name" : "Kyrgyzstan",
+          "uri" : "local://7oeZe4PXwT9VFqTgrk8vfF/"
+        },
+        "KH" : {
+          "name" : "Cambodia",
+          "uri" : "local://epK7PEeEEp9BEaRt-eg_UF/"
+        },
+        "KI" : {
+          "name" : "Kiribati",
+          "uri" : "local://eglrNSoX968SDqqzDMc0SE/"
+        },
+        "KM" : {
+          "name" : "Comoros",
+          "uri" : "local://CONjDiZxoMANA410wt0xH5/"
+        },
+        "KN" : {
+          "name" : "Saint Kitts and Nevis",
+          "uri" : "local://OnvGpl9EYFBLyamHU7GlY4/"
+        },
+        "KP" : {
+          "name" : "North Korea",
+          "uri" : "local://f8YsSfC2z9820KVLGX-naA/"
+        },
+        "KR" : {
+          "name" : "South Korea",
+          "uri" : "local://e01bBBXEJ0B7ZKzXk903_F/"
+        },
+        "KW" : {
+          "name" : "Kuwait",
+          "uri" : "local://aRPBJ2CJB-9YZ4bQl96sa3/"
+        },
+        "KZ" : {
+          "name" : "Kazakhstan",
+          "uri" : "local://-Tz9Fi5lp0BEYayMEeX_72/"
+        },
+        "LA" : {
+          "name" : "Laos",
+          "uri" : "local://ow2w5NQMb68z2qMiXKnHQC/"
+        },
+        "LB" : {
+          "name" : "Lebanon",
+          "uri" : "local://T9d7A3SLddAFGafTfA51K0/"
+        },
+        "LC" : {
+          "name" : "Saint Lucia",
+          "uri" : "local://MB2TeSTSGyBus4WQESb7HA/"
+        },
+        "LI" : {
+          "name" : "Liechtenstein",
+          "uri" : "local://DbIEfYiWdH9bHqRtdNfQa4/"
+        },
+        "LK" : {
+          "name" : "Sri Lanka",
+          "uri" : "local://ve90pdOoqI8oKKCm1t5u19/"
+        },
+        "LR" : {
+          "name" : "Liberia",
+          "uri" : "local://JdOjpiEl2aAdLKJsxSQMr1/"
+        },
+        "LS" : {
+          "name" : "Lesotho",
+          "uri" : "local://kk_bCRFB_7AdxaWRAMRP49/"
+        },
+        "LT" : {
+          "name" : "Lithuania",
+          "uri" : "local://UhknTiegeI8qIaW-kH52MA/"
+        },
+        "LU" : {
+          "name" : "Luxembourg",
+          "uri" : "local://VYaEp6gy7R9tOKMpC0Tk9E/"
+        },
+        "LV" : {
+          "name" : "Latvia",
+          "uri" : "local://yO4CauIeY083fay0-HRkRC/"
+        },
+        "LY" : {
+          "name" : "Libya",
+          "uri" : "local://pDXXhTjUKS8eCKOEr7_XR8/"
+        },
+        "MA" : {
+          "name" : "Morocco",
+          "uri" : "local://j5LgXUoTDnAEGaISplL3u9/"
+        },
+        "MC" : {
+          "name" : "Monaco",
+          "uri" : "local://jWElprPv8J8GFqnWik6s0A/"
+        },
+        "MD" : {
+          "name" : "Moldova",
+          "uri" : "local://Y3TSvqNvyt9UEqr_Yzo7o0/"
+        },
+        "MG" : {
+          "name" : "Madagascar",
+          "uri" : "local://4kIMxS284lAVEq1-kkyi10/"
+        },
+        "MK" : {
+          "name" : "Macedonia",
+          "uri" : "local://7wQMM8bj-99654zOmB8px4/"
+        },
+        "ML" : {
+          "name" : "Mali",
+          "uri" : "local://UONwDwiHuI91uq5oyjMTv3/"
+        },
+        "MM" : {
+          "name" : "Myanmar",
+          "uri" : "local://FytHAqDxfUBOtKobUVzK-3/"
+        },
+        "MN" : {
+          "name" : "Mongolia",
+          "uri" : "local://V371XWWOAa9SXK6kUyoSKC/"
+        },
+        "MR" : {
+          "name" : "Mauritania",
+          "uri" : "local://G-Lh6pwAhJB314dXtDo2C2/"
+        },
+        "MT" : {
+          "name" : "Malta",
+          "uri" : "local://6VnzOGzhyeAXa4zL5XZqF9/"
+        },
+        "MU" : {
+          "name" : "Mauritius",
+          "uri" : "local://g__VH_3PYFBr6qcF_j30u0/"
+        },
+        "MV" : {
+          "name" : "Maldives",
+          "uri" : "local://tfGaQuK82FA-N4cF98TBz3/"
+        },
+        "MW" : {
+          "name" : "Malawi",
+          "uri" : "local://_pB396V5-WBjUaJ42jL-h5/"
+        },
+        "MX" : {
+          "name" : "Mexico",
+          "uri" : "local://Hvt-8PuPrG93LKhDo_1Wc3/"
+        },
+        "MY" : {
+          "name" : "Malaysia",
+          "uri" : "local://sctdPaL2vt98CaMizjvjHD/"
+        },
+        "MZ" : {
+          "name" : "Mozambique",
+          "uri" : "local://tXNs0pY4DW8VY4QfM_hk-D/"
+        },
+        "NA" : {
+          "name" : "Namibia",
+          "uri" : "local://ReKWodKBJP9YKaEj4eVzw6/"
+        },
+        "NE" : {
+          "name" : "Niger",
+          "uri" : "local://sMXiT0iEOsB244hYUPmk08/"
+        },
+        "NG" : {
+          "name" : "Nigeria",
+          "uri" : "local://1nGILsgQSW8rWK-e3ZO3KB/"
+        },
+        "NI" : {
+          "name" : "Nicaragua",
+          "uri" : "local://wBeZAE1KvzAmL4IUKJqVLF/"
+        },
+        "NL" : {
+          "name" : "Netherlands",
+          "uri" : "local://O9js_dyDE38CUKhOZSrTgE/"
+        },
+        "NO" : {
+          "name" : "Norway",
+          "uri" : "local://m_kVGOdkKw9A2Ksam7B-XF/"
+        },
+        "NP" : {
+          "name" : "Nepal",
+          "uri" : "local://J7tSqRXqJ49VOK0V80RiZ8/"
+        },
+        "NR" : {
+          "name" : "Nauru",
+          "uri" : "local://fI__-_QL_6ACTKYleFqmT9/"
+        },
+        "NZ" : {
+          "name" : "New Zealand",
+          "uri" : "local://RJviK8ZHff9JwaN7OkNn_0/"
+        },
+        "OM" : {
+          "name" : "Oman",
+          "uri" : "local://YF12iNTY1F8CUKrKjydY86/"
+        },
+        "PA" : {
+          "name" : "Panama",
+          "uri" : "local://dKuEMdo637AKiKhfHYDhD2/"
+        },
+        "PE" : {
+          "name" : "Peru",
+          "uri" : "local://5uJrMfmH_I8iba23A3ogSA/"
+        },
+        "PG" : {
+          "name" : "Papua New Guinea",
+          "uri" : "local://3kyUpJw7GrAtS4aUibXu89/"
+        },
+        "PH" : {
+          "name" : "Philippines",
+          "uri" : "local://ueMVn4IJe3ARaqKL2TDTDB/"
+        },
+        "PK" : {
+          "name" : "Pakistan",
+          "uri" : "local://rmLTJmjLhS8me4TdxMmas8/"
+        },
+        "PL" : {
+          "name" : "Poland",
+          "uri" : "local://ZHV1_l946mBo3a5XXkF436/"
+        },
+        "PT" : {
+          "name" : "Portugal",
+          "uri" : "local://DuNx1RoQkH8DtKztea9mr1/"
+        },
+        "PW" : {
+          "name" : "Palau",
+          "uri" : "local://aQklr-GtXh9seqMgVCdY37/"
+        },
+        "PY" : {
+          "name" : "Paraguay",
+          "uri" : "local://18PEOO_cXVAQsK-dsxYxQF/"
+        },
+        "QA" : {
+          "name" : "Qatar",
+          "uri" : "local://jWN_84z3W1B_4qX_BFP1B0/"
+        },
+        "RO" : {
+          "name" : "Romania",
+          "uri" : "local://zkCWaQzZbjB_U4rlS52aA5/"
+        },
+        "RS" : {
+          "name" : "Serbia",
+          "uri" : "local://49OfruMBzV81zK75zWwQz3/"
+        },
+        "RU" : {
+          "name" : "Russian Federation",
+          "uri" : "local://vQCoa7laPw8f44Z2uUDTjD/"
+        },
+        "RW" : {
+          "name" : "Rwanda",
+          "uri" : "local://__cUDJvpaT8muqgoWqmIzD/"
+        },
+        "SA" : {
+          "name" : "Saudi Arabia",
+          "uri" : "local://zh5_o9Ap6r9HE4L1N5_xKF/"
+        },
+        "SB" : {
+          "name" : "Solomon Islands",
+          "uri" : "local://9VBcrH0IwhA-NqMUiotxTA/"
+        },
+        "SC" : {
+          "name" : "Seychelles",
+          "uri" : "local://_lklwR5uo69xlqeEi1cWM7/"
+        },
+        "SD" : {
+          "name" : "Sudan",
+          "uri" : "local://gx02N8Md43B88KMfOQ49m8/"
+        },
+        "SE" : {
+          "name" : "Sweden",
+          "uri" : "local://grkJp3MtPm9Mda5YkwTY-A/"
+        },
+        "SG" : {
+          "name" : "Singapore",
+          "uri" : "local://sysyuq4NPJ9F248oy8dtj9/"
+        },
+        "SI" : {
+          "name" : "Slovenia",
+          "uri" : "local://WdwAbI9z2wBMX4t7DyZrO6/"
+        },
+        "SJ" : {
+          "name" : "Svalbard and Jan Mayen",
+          "uri" : "local://m_kVGOdkKw9A2Ksam7B-XF/"
+        },
+        "SK" : {
+          "name" : "Slovakia",
+          "uri" : "local://2pJ9kivT9H8vZKU-WCss83/"
+        },
+        "SL" : {
+          "name" : "Sierra Leone",
+          "uri" : "local://pqFHTxEmUN9DJqGrToWGD6/"
+        },
+        "SM" : {
+          "name" : "San Marino",
+          "uri" : "local://d3INtOVPeK9TcKwT5J3f63/"
+        },
+        "SN" : {
+          "name" : "Senegal",
+          "uri" : "local://9Ya4-_U3_C8JKaDzqsQov3/"
+        },
+        "SO" : {
+          "name" : "Somalia",
+          "uri" : "local://Zwb2vACBjM8FaaiDs3CkI1/"
+        },
+        "SR" : {
+          "name" : "Suriname",
+          "uri" : "local://wApk4LOhWT8Ms4NqaYHRE6/"
+        },
+        "SS" : {
+          "name" : "South Sudan",
+          "uri" : "local://mgHKxj0tet85qqaaMchFt6/"
+        },
+        "SV" : {
+          "name" : "El Salvador",
+          "uri" : "local://vcfPfcEDrpBvfqC3KsrdJD/"
+        },
+        "SY" : {
+          "name" : "Syrian Arab Republic",
+          "uri" : "local://3it6KLI0pCA5AaiSn9W_pA/"
+        },
+        "SZ" : {
+          "name" : "Swaziland",
+          "uri" : "local://HReYtYpAe-8BjaoxmVXh3B/"
+        },
+        "TD" : {
+          "name" : "Chad",
+          "uri" : "local://JFywBwilveAvDagodk1aGE/"
+        },
+        "TG" : {
+          "name" : "Togo",
+          "uri" : "local://f5iKK0lInX8R_4Yyct0vG8/"
+        },
+        "TH" : {
+          "name" : "Thailand",
+          "uri" : "local://eT-bT2E11dBEBK9-4R8849/"
+        },
+        "TJ" : {
+          "name" : "Tajikistan",
+          "uri" : "local://3r8VDHhgHb9XsalAOYGpsD/"
+        },
+        "TL" : {
+          "name" : "Timor-Leste",
+          "uri" : "local://3UzqrG0yLoAsM4ERKOt628/"
+        },
+        "TM" : {
+          "name" : "Turkmenistan",
+          "uri" : "local://V-A3S1wOoiAyQa2Yf798J7/"
+        },
+        "TN" : {
+          "name" : "Tunisia",
+          "uri" : "local://Jj3W-SPLd-8THK3yDRimzD/"
+        },
+        "TO" : {
+          "name" : "Tonga",
+          "uri" : "local://lfgwpt_4Wo9hTqjsa6dGI0/"
+        },
+        "TR" : {
+          "name" : "Turkey",
+          "uri" : "local://aJvnfm_ITy8VoaA8U5ee97/"
+        },
+        "TT" : {
+          "name" : "Trinidad and Tobago",
+          "uri" : "local://7WJ7DzQFHO8iwqHhvHY44C/"
+        },
+        "TV" : {
+          "name" : "Tuvalu",
+          "uri" : "local://8fKMsHtg_D9xFqjCjC1N5A/"
+        },
+        "TW" : {
+          "name" : "Taiwan",
+          "uri" : "local://Vk3tcfN1n6ARqKD-TQKPhD/"
+        },
+        "TZ" : {
+          "name" : "Tanzania",
+          "uri" : "local://sPOKjovM0aAXyaIfuXvlB9/"
+        },
+        "UA" : {
+          "name" : "Ukraine",
+          "uri" : "local://BEVS0Yo4S18KWaL_pIHUS7/"
+        },
+        "UG" : {
+          "name" : "Uganda",
+          "uri" : "local://XAtyzuLu6BBLrKgnjE-dB5/"
+        },
+        "US" : {
+          "name" : "United States",
+          "uri" : "local://4CgaiowrfB96L415GVVd36/"
+        },
+        "UY" : {
+          "name" : "Uruguay",
+          "uri" : "local://k5VtwG7Zh09B84gyXfemj0/"
+        },
+        "UZ" : {
+          "name" : "Uzbekistan",
+          "uri" : "local://yV2zMvYTLh8VUK5imiXlZC/"
+        },
+        "VC" : {
+          "name" : "Saint Vincent and the Grenadines",
+          "uri" : "local://FpgScj5lGeA7dqoxDDV50D/"
+        },
+        "VE" : {
+          "name" : "Venezuela, Bolivarian Republic of",
+          "uri" : "local://8L0JH3BFzF8GXKeVGR3NwD/"
+        },
+        "VN" : {
+          "name" : "Vietnam",
+          "uri" : "local://i5244MyPkdAjEagO4V9Rw7/"
+        },
+        "VU" : {
+          "name" : "Vanuatu",
+          "uri" : "local://oWxeQikGBGBWV4aizohIm9/"
+        },
+        "WS" : {
+          "name" : "Samoa",
+          "uri" : "local://1aw5ESp9dg8mOKmmeaByVC/"
+        },
+        "YE" : {
+          "name" : "Yemen",
+          "uri" : "local://B6v7Zb3D8K80VqsRKM_iS5/"
+        },
+        "ZA" : {
+          "name" : "South Africa",
+          "uri" : "local://V0OmGST_tsBydKNdhFJFV3/"
+        },
+        "ZM" : {
+          "name" : "Zambia",
+          "uri" : "local://AtnPYgfGSoBTuqSCG42fB8/"
+        },
+        "ZW" : {
+          "name" : "Zimbabwe",
+          "uri" : "local://FR-7LUrb0O9Bc4tSv70w37/"
+        }
+      }
+    }
+  }, {
+    "name" : "htmlTemplate",
+    "expr" : {
+      "str" : "<html>\n  <head>\n    <script type=\"text/javascript\" src=\"https://www.google.com/jsapi\"></script>\n    <script type=\"text/javascript\">\n      var isoToCiaMap = {{{isoToCiaMap}}};\n\n      google.load(\"visualization\", \"1\", {packages:[\"geochart\"]});\n      google.setOnLoadCallback(drawRegionsMap);\n\n      function drawRegionsMap() {\n        var dataTable = [ ['Country', 'Available', {role: 'tooltip', p:{html:true}}] ];\n        _.each(_.keys(isoToCiaMap), function(code) { \n          dataTable.push([{\"v\": code, \"f\": isoToCiaMap[code].name}, 1, \"Click to view country\"]);\n        });\n\n        var data = google.visualization.arrayToDataTable(dataTable);\n\n        var options = {legend: 'none',  colorAxis: {colors: ['white', '#FFA07A']}, width: '100%'};\n\n        var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));\n        google.visualization.events.addListener(chart, 'regionClick', function (eventData) {\n            var entry = isoToCiaMap[eventData.region];\n            if (entry) {\n                $cjs.redirect(entry.uri);\n            } else {\n                alert(\"Could not find the country concept\");\n            }\n        });\n        chart.draw(data, options);\n      }\n    </script>\n  </head>\n  <body>\n    <h2 style=\"text-align: center\">World Map</h2>\n    <div id=\"regions_div\" style=\"width: 100%; height: 80%\"></div>\n  </body>\n</html>",
+      "strEditMode" : "html"
+    }
+  }, {
+    "name" : "_page_propertyMap",
+    "expr" : {
+      "script" : "return {\"isoToCiaMap\": JSON.stringify(isoToCiaMap)};"
+    }
+  }, {
+    "name" : "page",
+    "expr" : {
+      "concept" : "/common/core/Xfh2VQ4HSK9klqbqqR-eBB/",
+      "conceptName" : "Mustache HTML Page",
+      "bindings" : {
+        "htmlTemplate" : "htmlTemplate",
+        "propertyMap" : "_page_propertyMap"
+      }
+    }
+  } ],
+  "isas" : [ {
+    "var" : "page"
+  } ],
+  "isLambda" : false,
+  "digest" : "vnpg5mLV7pn6xAy362F4Uw=="
+}

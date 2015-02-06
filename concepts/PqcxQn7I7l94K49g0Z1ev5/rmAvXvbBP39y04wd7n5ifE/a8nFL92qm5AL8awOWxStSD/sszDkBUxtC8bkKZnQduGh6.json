@@ -1,0 +1,40 @@
+{
+  "uri" : "local://sszDkBUxtC8bkKZnQduGh6/",
+  "name" : "IssueView",
+  "category" : "",
+  "parent" : "local://a8nFL92qm5AL8awOWxStSD/",
+  "pname" : "IssueLambda",
+  "flags" : "U",
+  "lvars" : [ {
+    "name" : "model",
+    "type" : "local://a8nFL92qm5AL8awOWxStSD/",
+    "typeName" : "IssueLambda"
+  } ],
+  "vars" : [ {
+    "name" : "htmlTemplate",
+    "expr" : {
+      "str" : "<html class=\"no-js\">\n    <head>\n        <meta charset=\"utf-8\">\n        <title>Issue to Action</title>\n        <meta name=\"description\" content=\"\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->\n\n        <!-- build:css styles/vendor.css -->\n\n        <!-- bower:css -->\n        <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css\">\n        <!-- endbower -->\n        <!-- endbuild -->\n\n        <!-- build:css styles/main.css -->\n        <link rel=\"stylesheet\" href=\"/resourcelocal://Xm6WCKvZ2H9ukK7b2lxhi5/\">\n        <!-- endbuild -->\n        \n        <style>\n            .form-human .form-human-content, \n            .form-human .form-human-input{\n                padding-top: 0px !important;\n            }\n            \n            .topbar { \n                    background-color: #b2dba1; \n                    border-bottom: solid 2px #EEE; \n                    padding: 3px 0; \n                    text-align: center; \n                    color: #11100B;\n                }\n        </style>\n\n        <!-- build:js scripts/vendor/modernizr.js -->\n        <script src=\"https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js\"></script>\n        <!-- endbuild -->\n        \n        <!-- pretty dates-->\n        <script src=\"/resource/common/core/m6xf23SRCj9-iqWpo3Ss35/\"></script>\n        \n        <meta name=\"cjsSaveMode\" content=\"auto\">\n    </head>\n    <body>\n        <!--[if lt IE 10]>\n            <p class=\"browsehappy\">You are using an <strong>outdated</strong> browser. Please <a href=\"http://browsehappy.com/\">upgrade your browser</a> to improve your experience.</p>\n        <![endif]-->\n\n        <div class=\"container\">\n            <div class=\"header row\">\n                <h3 class=\"brand pull-left\">Issue <span class=\"color\">to</span> Action</h3>\n                <a href=\"javascript:void(0)\" data-bind=\"click: showIssueSubmit\"><p class=\"pull-right\"><em>Share an issue/concern</em></p></a>\n            </div>\n\n            <div class=\"issue-form-container\">\n                <form class=\"form-human issue-form form-horizontal\" action=\"#\" role=\"issue-form\">\n                    <div class=\"form-group\">\n                        <label for=\"issue\" class=\"control-label form-human-content col-xs-3\">Issue:</label>\n                        <div class=\"col-xs-7\">\n                            <input type=\"text\" class=\"form-human-input\" id=\"issue\" data-bind=\"value : issue, enable: owner\">\n                        </div>\n                    </div>\n                    <div class=\"form-group\">\n                        <label for=\"issue\" class=\"control-label form-human-content col-xs-3\">Audience:</label>\n                        <div class=\"col-xs-7\">\n                            <input type=\"text\" class=\"form-human-input\" id=\"issue\" data-bind=\"value : audience, enable: owner\">\n                        </div>\n                    </div>\n                    <div class=\"form-group\">\n                        <label for=\"issue\" class=\"control-label form-human-content col-xs-3\">Reason:</label>\n                        <div class=\"col-xs-7\">\n                            <input type=\"text\" class=\"form-human-input\" id=\"issue\" data-bind=\"value : reason, enable: owner\">\n                        </div>\n                    </div>\n                    <div class=\"form-group\" data-bind=\"visible: owner\">\n                        <div class=\"col-xs-offset-3 col-xs-7\">\n                            <button type=\"submit\" class=\"form-human-btn\" data-bind=\"click: saveChange\" style=\"float: right\"> <i id=\"spin\" class=\"fa fa-save\"></i> Save</button>\n                        </div>\n                    </div>\n                </form>\n            </div>\n            \n            <br>\n            \n            <script type=\"text/javascript\" src=\"https://maps.google.com/maps/api/js?sensor=false\"></script>\n            <article>\n                <p>Issue submit location:</p>\n            </article>\n\n        </div>\n        <div class=\"footer\">\n            <div class=\"container\">\n                <p>Build with <i class=\"fa fa-heart\" style=\"color:red\"></i> in Boston</p>\n            </div>\n        </div>\n\n        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->\n        <script>\n            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=\n            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;\n            e=o.createElement(i);r=o.getElementsByTagName(i)[0];\n            e.src='//www.google-analytics.com/analytics.js';\n            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));\n            ga('create','UA-XXXXX-X');ga('send','pageview');\n        </script>\n\n        <!-- build:js scripts/main.js -->\n        <script src=\"/resourcelocal://OdP3FaK6OQ9YEKD3pSgiHF/\"></script>\n        <!-- endbuild -->\n</body>\n</html>",
+      "strEditMode" : "html"
+    }
+  }, {
+    "name" : "_page_propertyMap",
+    "expr" : {
+      "script" : "return {\"modelUri\" : model.uri()};"
+    }
+  }, {
+    "name" : "page",
+    "expr" : {
+      "concept" : "/common/core/Xfh2VQ4HSK9klqbqqR-eBB/",
+      "conceptName" : "Mustache HTML Page",
+      "bindings" : {
+        "htmlTemplate" : "htmlTemplate",
+        "propertyMap" : "_page_propertyMap"
+      }
+    }
+  } ],
+  "isas" : [ {
+    "var" : "page"
+  } ],
+  "isLambda" : true,
+  "digest" : "TUFlyLpG2AfTCLK6Kx4usw=="
+}

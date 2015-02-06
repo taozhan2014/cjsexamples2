@@ -1,0 +1,56 @@
+{
+  "uri" : "local://SJ4V9jRjw4AC8atale0yX9/",
+  "name" : "trash in MBTA",
+  "category" : ".issue",
+  "parent" : "local://DZaELKgIJ8A-24Gmri6DPE/",
+  "pname" : "Example Issue to Action",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "issue",
+    "expr" : {
+      "str" : "trash in MBTA"
+    }
+  }, {
+    "name" : "audience",
+    "expr" : {
+      "str" : "people"
+    }
+  }, {
+    "name" : "reason",
+    "expr" : {
+      "str" : "clean environment"
+    }
+  }, {
+    "name" : "createTime",
+    "expr" : {
+      "str" : "2014-12-06T16:43:39.649Z"
+    }
+  }, {
+    "name" : "location",
+    "expr" : {
+      "json" : {
+        "lat" : 42.6824296,
+        "lon" : -70.97139489999999
+      }
+    }
+  }, {
+    "name" : "issueBind",
+    "expr" : {
+      "concept" : "local://a8nFL92qm5AL8awOWxStSD/",
+      "conceptName" : "IssueLambda",
+      "bindings" : {
+        "issue" : "issue",
+        "audience" : "audience",
+        "reason" : "reason",
+        "createTime" : "createTime",
+        "location" : "location"
+      }
+    }
+  } ],
+  "isas" : [ {
+    "var" : "issueBind"
+  } ],
+  "isLambda" : false,
+  "digest" : "tCZI8i92EPA8X5dBmy6edg=="
+}

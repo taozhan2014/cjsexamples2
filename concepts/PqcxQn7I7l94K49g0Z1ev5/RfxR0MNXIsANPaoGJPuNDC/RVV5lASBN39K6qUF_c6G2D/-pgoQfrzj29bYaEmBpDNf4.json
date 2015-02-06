@@ -1,0 +1,35 @@
+{
+  "uri" : "local://-pgoQfrzj29bYaEmBpDNf4/",
+  "name" : "Country (Wiki Page)",
+  "category" : ".about",
+  "parent" : "local://RVV5lASBN39K6qUF_c6G2D/",
+  "pname" : "Country",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "_page_title",
+    "expr" : {
+      "str" : "Country"
+    }
+  }, {
+    "name" : "_page_content",
+    "expr" : {
+      "str" : "<p>Country is a lambda-concept that captures some properties related to a country's definition as per the CIA World Factbook.&nbsp;</p>"
+    }
+  }, {
+    "name" : "page",
+    "expr" : {
+      "concept" : "/common/core/h1osNTK5b5AkAafQ9UVEl6/",
+      "conceptName" : "Wiki Page",
+      "bindings" : {
+        "title" : "_page_title",
+        "content" : "_page_content"
+      }
+    }
+  } ],
+  "isas" : [ {
+    "var" : "page"
+  } ],
+  "isLambda" : false,
+  "digest" : "Jsapg86lJ3iA/5ypD3IS8A=="
+}

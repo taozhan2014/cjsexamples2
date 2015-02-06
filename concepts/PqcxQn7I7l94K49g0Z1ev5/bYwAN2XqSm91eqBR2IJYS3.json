@@ -1,0 +1,42 @@
+{
+  "uri" : "local://bYwAN2XqSm91eqBR2IJYS3/",
+  "name" : "Code For Boston Calendar",
+  "category" : "",
+  "parent" : "local://PqcxQn7I7l94K49g0Z1ev5/",
+  "pname" : "examples (Repository)",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "endpoint",
+    "expr" : {
+      "str" : "https://boston-civic-calendar.herokuapp.com/api/v1/events",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "htmlTemplate",
+    "expr" : {
+      "str" : "<head>\r\n<link href=\"//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.2.3/fullcalendar.css\" rel=\"stylesheet\" />\r\n<script src=\"//cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js\"></script>\r\n<script src=\"//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.2.3/fullcalendar.min.js\"></script>\r\n<script>\r\n  var endpoint = \"{{{endpoint}}}\";\r\n\r\n  $(function() {\r\n    $('#calendar').fullCalendar({\r\n      header: {\r\n        left: 'prev,next today',\r\n        center: 'title',\r\n        right: 'month,basicWeek,basicDay'\r\n      },\r\n      editable: false,\r\n      eventLimit: false, \r\n      events: function(start, end, timezone, callback) {\r\n        var transformAndCallback = function(json) {\r\n          var events = _.map(json, function(event) {\r\n            return {\"start\": event.start_date, \"end\": event.end_date, \"url\": event.url, \"title\": event.title};\r\n          });\r\n          console.log(\"Showing: \" + JSON.stringify(events));\r\n          callback(events);\r\n        };\r\n\r\n        $.ajax(endpoint, { dataType: 'json' }).done(function(doc) {\r\n            var json = JSON.parse(doc);\r\n            transformAndCallback(json);\r\n          }).fail(function(jqXHR, textStatus, errorThrown) {\r\n            console.log(\"Error: \" + errorThrown);\r\n            transformAndCallback([\r\n{\"id\":1,\r\n\"created_at\":\"2014-11-21T04:19:02+00:00\",\r\n\"uid\":\"event_qlglcjyspbhc@meetup.com\",\r\n\"start_date\":\"2014-12-02T19:00:00\",\r\n\"end_date\":\"2014-12-02T21:30:00\",\r\n\"title\":\"Weekly Hack Night\",\r\n\"url\":\"http://www.meetup.com/Code-for-Boston/events/217905002/\",\r\n\"pricing\":null,\r\n\"contact_email\":null,\r\n\"organizer\":null,\r\n\"source_id\":1}\r\n])\r\n          });\r\n      }\r\n    });  \r\n  });\r\n\r\n</script>\r\n<style>\r\n  body {\r\n    margin: 40px 10px;\r\n    padding: 0;\r\n    font-family: \"Lucida Grande\",Helvetica,Arial,Verdana,sans-serif;\r\n    font-size: 14px;\r\n  }\r\n\r\n  #calendar {\r\n    max-width: 900px;\r\n    margin: 0 auto;\r\n  }\r\n\r\n</style>\r\n</head>\r\n<body>\r\n  <div id='calendar'></div>\r\n</body>\r\n",
+      "strEditMode" : "html"
+    }
+  }, {
+    "name" : "_page_propertyMap",
+    "expr" : {
+      "script" : "return {'endpoint': endpoint};"
+    }
+  }, {
+    "name" : "page",
+    "expr" : {
+      "concept" : "/common/core/Xfh2VQ4HSK9klqbqqR-eBB/",
+      "conceptName" : "Mustache HTML Page",
+      "bindings" : {
+        "htmlTemplate" : "htmlTemplate",
+        "propertyMap" : "_page_propertyMap"
+      }
+    }
+  } ],
+  "isas" : [ {
+    "var" : "page"
+  } ],
+  "isLambda" : false,
+  "digest" : "bMLvAzV9ET/l8Kjj1QVLkw=="
+}
